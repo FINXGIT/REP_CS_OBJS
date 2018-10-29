@@ -2,6 +2,7 @@ ID: REP_CS_OBJS
 _schema-version: '2.0'
 version: 0.0.1
 
+
 modules:
  - name: C_CS_S4
    type: hdb
@@ -17,3 +18,5 @@ resources:
    properties:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
+
+
