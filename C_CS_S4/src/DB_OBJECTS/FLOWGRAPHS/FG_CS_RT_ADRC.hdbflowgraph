@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowgraph:ContainerNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:id="1897cf3c19cf72852f8e5455fde496ac" name="FG_CS_RT_ADRC" runtimeBehavior="REALTIME_TASK">
+  <annotations key="sap.afm.layout" xmi:id="705cc8f3e23c20213072a3ed63fbe163">
+    <annotations xmi:id="df7d8d2f4ef453943ac687c79cbe0bad" key="x" value="10">
+    </annotations>
+    <annotations xmi:id="f77eabba62287d5762eeaaa8ec4a03a5" key="y" value="10">
+    </annotations>
+    <annotations xmi:id="92a8eda503d84d2ac08ddf6117f39bd3" key="width" value="100">
+    </annotations>
+    <annotations xmi:id="99439c15490633ebb842308e4b75e52f" key="height" value="84">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="29e16451bca614366d0bb7aac521ace8" key="sap.afm.palette">
+    <annotations xmi:id="924a30ff04a43f19e5df146b7a9a650b" key="additions" value="">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="220666b7413783120214dc2773d196ef" key="sap.afm.nodeType" value="ContainerNode">
+  </annotations>
+  <annotations xmi:id="9b8b56cd8742b70ebb1e8affa286cca3" key="sap.afm.nodeInputs">
+  </annotations>
+  <annotations xmi:id="ad00b5f07124ec5aaa188bea84d77878" key="sap.afm.nodeOutputs">
+  </annotations>
+  <annotations xmi:id="75d8cb0c69b04d5310a6b633e6958da0" key="sap.im.explicitTypeConversion">
+  </annotations>
+  <tableMappings xmi:id="24211229602a982f45c770b24e89c48e" source="1990ef515dc80465ad92a6f5a0cb9749" target="e151da0b80d20dc35fe8011825e07a05">
+    <attributeMappings xmi:id="b7cbe28204d7913466e7a231c2f32470" source="872a895a495f90e7e431ba1f1c23b9ea" target="ae2064101c0e4aede6c6fbd1b49c19ad">
+    </attributeMappings>
+    <attributeMappings xmi:id="df20c58d93ac687e5f066e020c5a3736" source="1af5e13326dc796dd116f2cbaca07342" target="9325137e1e4d2912a1befd937076a61a">
+    </attributeMappings>
+    <attributeMappings xmi:id="872f6c6f6afae211155b005316dd3740" source="ee8f60c6364eeb57a75f082b0224f2d4" target="23d052ef2a396cc75cc064e545f39292">
+    </attributeMappings>
+    <attributeMappings xmi:id="a2493248aec75dfc406a1a32e4648b86" source="ef7ee8dadd45ee231b69df615b462269" target="d8f369ee681d9c9e7a4c90e768bd8686">
+    </attributeMappings>
+    <attributeMappings xmi:id="185309b783f8f27ff225f42e7c76c125" source="48b54be8d6aa3a5fb57842815f40091f" target="8bae89da30617548d24e7ad26d73aada">
+    </attributeMappings>
+    <attributeMappings xmi:id="ed497023b7aeb64edfc2199858c16131" source="e44373c1240d602d6b5a3161efe24ed4" target="da159e98828f7ca8fc136ccd114872bf">
+    </attributeMappings>
+    <attributeMappings xmi:id="53d27e3e355f232520a19efe3ead7e10" source="764767b83f72e6b67a4b307ff29cba6d" target="19f5d8669bb3ece8e27c36e7f965f405">
+    </attributeMappings>
+    <attributeMappings xmi:id="cb37163a81fe986c93bc659df7ab3be5" source="908fd3c311c634e3ec1ab475808bd996" target="70428e6b5770133ef3b718d999d2cd17">
+    </attributeMappings>
+    <attributeMappings xmi:id="aa8a0311302246aa0944b58d2f6a24c5" source="e80b01b656570398e2e29433a574d76a" target="7ae437c28905a118c85eac0ff5edbe8c">
+    </attributeMappings>
+    <attributeMappings xmi:id="919c44874a754544048b4d3db3b6b984" source="1a05b34e5fde98c29d554b7e3e7aae5b" target="9d96300aeaf05292f6e7dfb419e01d2a">
+    </attributeMappings>
+    <attributeMappings xmi:id="aa217867cd3b295e0485b6292603265a" source="cf130f6daf92194c559770c6a8f6aa48" target="37fd886b5f7620a8ea2f42224b7a0ca8">
+    </attributeMappings>
+    <attributeMappings xmi:id="c61d3fb4954bd86771d889617b0028b7" source="69fa4e0c62de9b6906368f9c7ff07ccc" target="fcc91dd9447b3b8b97633424811e75f2">
+    </attributeMappings>
+    <attributeMappings xmi:id="84967b8a5627da8d13171f50bab8f6a9" source="080d52e0c200de883933940b22d9dd36" target="7041a33c96e5319f9cf030bec7a7e238">
+    </attributeMappings>
+    <attributeMappings xmi:id="5f107ed4eb9f07790bb3dcbca9e6e9f8" source="91abe0821fea254e072be67d062b43c4" target="c6d0d1f077abb0597f12f7dcc4287450">
+    </attributeMappings>
+    <attributeMappings xmi:id="179b4eed063f57d35db473c297d79644" source="fe769e8fe0a177c244d1609096e55faa" target="2343f5a233df110560570bd0036f86bb">
+    </attributeMappings>
+    <attributeMappings xmi:id="2bb9a207d0b6c9421e841b7dfd117ecf" source="31d4d1c1bf5aa683ac69d8d84822488f" target="7a7e60f851e68528d2dd434c209868c8">
+    </attributeMappings>
+    <attributeMappings xmi:id="cf8d29916abba5bb527edea359bae338" source="3391f0c05f01b5ef59606ead8dece116" target="374fbb4eb5a1953ca6ffa359be2e5ed8">
+    </attributeMappings>
+    <attributeMappings xmi:id="3c65ecac49f4923e6706231df1d16d48" source="2efa86ff939c5fa12d2a67e5d6cd6e2c" target="0c6bc36a65033f759b3657f8cf0320a1">
+    </attributeMappings>
+    <attributeMappings xmi:id="41dc475e2be50a4771fb9efc8a6a90d2" source="7c9873377c7bda2d892fa72562090cdb" target="2f92494b56613123430a76643374db46">
+    </attributeMappings>
+    <attributeMappings xmi:id="7c37e20afdaf62e1cda8536dd23e454b" source="4df01ae20ffdb019190f920d64e1e718" target="298bacf2a85ebe7e1402e4014c619bb2">
+    </attributeMappings>
+    <attributeMappings xmi:id="cf598a4b0a602a51ce4d94e88bf0d4bb" source="260c58c11785e30b1515a8e91ea78874" target="57f13ba1b21709197e17b65136769720">
+    </attributeMappings>
+    <attributeMappings xmi:id="84a206276c0506e10b905dd9352f8a66" source="feb2aa5bf90e45d61499b283bcbe2d43" target="f8347abcd99438ac967ec23d8ff090e6">
+    </attributeMappings>
+    <attributeMappings xmi:id="5361c4a39799f72bba990644fa705c6c" source="5aa3aa458cf7a37eeed457ec7745e519" target="378124102ef28674261bbe2a0e76a4f2">
+    </attributeMappings>
+    <attributeMappings xmi:id="76bdb22a6fdefec2af6b1dfec7a2c7b6" source="71a123b35b3bfe8db766cb6d4ace6603" target="af88b63fc59c45a4ff58d4e0393fc42d">
+    </attributeMappings>
+    <attributeMappings xmi:id="1aa0dfb8de3552e9d2d633e8a5b8e7de" source="1db9c14b282e46cda53fa09966691ed9" target="09d450fba73396ff2588339bd038387a">
+    </attributeMappings>
+    <attributeMappings xmi:id="f099b0b6e8dee63373c5703ca5fa1a22" source="f9c90743cccbbd0472171156dc266bc8" target="bea44b22b025ae813472bc508ddb5a24">
+    </attributeMappings>
+    <attributeMappings xmi:id="636f79ab0d58d311e3e151ce70517615" source="a92d9b4ba25c46c832789dee7da3bc58" target="3d69c8816514d361313dbd85d53c5580">
+    </attributeMappings>
+    <attributeMappings xmi:id="ce975f77f937d7044f04e6511b4bcb08" source="949e9a2391b33874bf51ca991ac44969" target="ae7b56d3d23320b33f404a6c623a7ba6">
+    </attributeMappings>
+    <attributeMappings xmi:id="61e75671513b24d4f5f05e970521be16" source="6cd66b5e85aff1ca1764b6950276bd04" target="5bce6d9c79c58fb10b9dae31472acc3d">
+    </attributeMappings>
+    <attributeMappings xmi:id="873011d1a7371d04a5a74dafd2876cc6" source="c1d00102b7f1b1eee0d41b176d19850e" target="bac8ae2bb84d7276a00d1981e83060ea">
+    </attributeMappings>
+    <attributeMappings xmi:id="a3a9cc1fbc60602d85901122e2fa78ac" source="10a4d81a4f71f19d75a15248a34269f2" target="4636c63b93e21603e0bd633685e246c7">
+    </attributeMappings>
+    <attributeMappings xmi:id="3bc32edbb25b943348d9c94258be4681" source="619fd0ae20a4aa5826dc5080cd6b6d36" target="6615104a00328e8bf21df145d62c552e">
+    </attributeMappings>
+    <attributeMappings xmi:id="b5d0b2c1717a4168736cd230c37d2015" source="b5ec6910be138cc616274072c1e4b92e" target="f1c360def0aa5171a5cff2c43bcbddde">
+    </attributeMappings>
+    <attributeMappings xmi:id="d4731b2243a0fee1f11d1e7a44ba5047" source="7f735ba86c0b6d0e4eabb5a2ed18b894" target="10b12f57353e0e06a6d61abf121dd958">
+    </attributeMappings>
+    <attributeMappings xmi:id="6ea6cefe13e10c1c30d7374498b53b9b" source="b99a8c4a9f60c07c6335a4101c9ac909" target="a571ee19ed07eb6effedb34f62215aa0">
+    </attributeMappings>
+    <attributeMappings xmi:id="8969ea0f72dd3729941a3be190a10c96" source="d36032d251ab04fda6c375e536d516b0" target="f5e7a7ebc52aea9527bfeb6ea3b573f6">
+    </attributeMappings>
+    <attributeMappings xmi:id="4b48d5dae32c4da5061b1d3b70ebc9d4" source="cc1139b5f0eed9e42b6413775b49f86c" target="8902621c927a5d96969026c942969e80">
+    </attributeMappings>
+    <attributeMappings xmi:id="c121797faed014ae6049d22870eaa003" source="4ebad8c2b0526464d3d65ab3f99f97c5" target="501805a73a9c249e17eb9cffd0d84dd3">
+    </attributeMappings>
+    <attributeMappings xmi:id="3b93c252ce0f3ff6530c7347098dd7c6" source="c2d7d9525ff0fae52357c47757079774" target="1b17ebc25999aca20b17149285e971a7">
+    </attributeMappings>
+    <attributeMappings xmi:id="f2c7ec76924eb1f75b41d7041c70d1fa" source="d59e5b14b9482a56a4d03a66c700c65e" target="aea149f133e6d580635fa97fe792863b">
+    </attributeMappings>
+    <attributeMappings xmi:id="5a39b855406c0b866b7698af5c6e54bd" source="96fd6d1725e5c8e27a187fa9c3efedd0" target="bc221162a83e711a4eddb1b3667e82dc">
+    </attributeMappings>
+    <attributeMappings xmi:id="1710ef967378beb209d4c40e99e8daa5" source="4584d8c3ced2ed8ffe39bbd0251609de" target="ce7c8de37be6dbbfb705db0c4c2ff16e">
+    </attributeMappings>
+    <attributeMappings xmi:id="aa80019e54953f3bad75ec10e93a60ad" source="52d03a7e43d00769a9221b51d5fd4de9" target="3c19aed626b214a62832864811987630">
+    </attributeMappings>
+    <attributeMappings xmi:id="80b509c8eff11f746be4a33049653669" source="181d9043331e779aba1d73a408c5d311" target="5bdbca4673cd6e96c54397a2e85d9c4c">
+    </attributeMappings>
+    <attributeMappings xmi:id="0d5406a98e9492244788723f970bf2f3" source="5df99a8f6477b5e0b74afd7d47571f9f" target="fe53780224c01e1c4a47cd0b994067a9">
+    </attributeMappings>
+    <attributeMappings xmi:id="33394c1bc9360403192292fc28c4500b" source="77df6f2fd19267fdcb869b37b153c7a0" target="733a1b56464d126505c64f645d0c7f8b">
+    </attributeMappings>
+    <attributeMappings xmi:id="eedde30e59dcac53a9388e93240dac33" source="ed453257fc24abe0e9c277356f08123d" target="00e8147bdc055444eb55c53e4508047d">
+    </attributeMappings>
+    <attributeMappings xmi:id="02ad91eb88ba9c8d9d1637334c1237b8" source="e24f357bc1d5027db8c0780bafc32d58" target="db0fc926ca1229108e30763dcb66efa0">
+    </attributeMappings>
+    <attributeMappings xmi:id="36e4550a215f7e32fb878647294a9d49" source="c875784cbd77d3c61ec366304ec4ac4f" target="6b02d653aa32d1367c2849e98ba08890">
+    </attributeMappings>
+    <attributeMappings xmi:id="6dcc3e295b530a07346ba05eddc4866c" source="948f66622e0a23fba6a1d3714a157020" target="415f310282128dbe15478c4b598187bc">
+    </attributeMappings>
+    <attributeMappings xmi:id="76b4d3b037b7560052ca63ec8661e3e8" source="9ff4fc8d4087fbd4b09fe4d2584890fe" target="61fb812494a0a5f8ec060663500a5ee6">
+    </attributeMappings>
+    <attributeMappings xmi:id="986029f9b8d354158b82f1ed092da66f" source="572beac2e817714961f3a255cf832e49" target="78e42360ea5014e4759bdcbdfa113a0d">
+    </attributeMappings>
+    <attributeMappings xmi:id="915b51e706fa2167f3e22981ab2fe671" source="ac21e3b043c9ed2790582f8197fc4c6e" target="d9d6e1c9754e24fa930cab9d277afcbe">
+    </attributeMappings>
+    <attributeMappings xmi:id="21c68bebaeed8fcdefca13def2f86de1" source="e4d1fefb62aee9e8e4a89dc8cfd00aac" target="537767af0a5d922c2336159a1d21f81e">
+    </attributeMappings>
+    <attributeMappings xmi:id="9f6c4fbc44fb756135d08e8e3f48a853" source="6d04020504f9e0fa0ff9b5ce05b46a27" target="a36a0d8bf5da1ac11ba6c7914cd2f929">
+    </attributeMappings>
+    <attributeMappings xmi:id="817ccd8229e1db84c14753821b2307e0" source="7079edd65b1da2420f91281a1f75e49e" target="0ed7afc81c369af8cbfe53213b73eb26">
+    </attributeMappings>
+    <attributeMappings xmi:id="01edea833a0d85c73d8a632cc3ccd054" source="70f6af628df82c0f01d0253d51a0022a" target="05918cab60e9ccd0d057e01da2abd951">
+    </attributeMappings>
+    <attributeMappings xmi:id="115adca2a18a0343e7295c4fac7f2284" source="c7321db3595dfc3306d0fc15c9ab5831" target="8855abe200176debdcae7c5b1c6d4dac">
+    </attributeMappings>
+    <attributeMappings xmi:id="25efe667f8bc67950ee8e5ea2aa9fecc" source="101b3d52ce94ecec6f9d5cb9f642ae2a" target="0809b5725938f6873387836f6ad90f6b">
+    </attributeMappings>
+    <attributeMappings xmi:id="d2f57ce34cb8dc2dd2be4aa4c2247025" source="c3fb5328cf23cb11a0dec94cdb360fa3" target="ea9ac16c6ee9869e252d5c1443f033de">
+    </attributeMappings>
+    <attributeMappings xmi:id="cdd0ceb1174f2141c9410d9904cc9dc5" source="7f4e8a36ad6f17fb4e9fabd5289a9cda" target="70091bb7ab72708ce8ec75a24e2c88b7">
+    </attributeMappings>
+    <attributeMappings xmi:id="b5572efc0d0544d580e801ef90de8aa6" source="07090901e1028d73197e16ec6f1eb8d2" target="c55057fe852892498290a2df16e649a9">
+    </attributeMappings>
+    <attributeMappings xmi:id="b2db61dc05ced2d8f6d5b349e861594e" source="efb976e66da523a729e39b9ad8533c0a" target="ad862bfa0e334dd51b73940e22a33582">
+    </attributeMappings>
+    <attributeMappings xmi:id="c7944f1ec550321b0d77e88521fc624f" source="bc53bdde6eca94517f76f7b2cf7603d8" target="ccc0c766b3b173a46e7c963885bdf164">
+    </attributeMappings>
+    <attributeMappings xmi:id="0b593f39b040f1fd5a47c7fb9e78a0d6" source="44df8808b66824ef2c7c591a7c4ace73" target="2192490de6fc61583466dee53a197ca4">
+    </attributeMappings>
+    <attributeMappings xmi:id="51ff9b62614f9d4f1deeee576ae25737" source="2941ecfc4cf71c0e7c94221915895284" target="18b4608964d3dadc58ac14e154253873">
+    </attributeMappings>
+    <attributeMappings xmi:id="cca46bb324ce6ebd32b0ab4d2a7054b5" source="139a8a198fc8837fde5a09201c90363c" target="c6a7db2553c167252ba5653bdd9037a4">
+    </attributeMappings>
+    <attributeMappings xmi:id="ace76d69decd97d52bf1cfc35c71b957" source="9c60006ab6ee8d6c7fa2191ca3d6e49b" target="e6dff0d674eaab388c220fd11f81c130">
+    </attributeMappings>
+    <attributeMappings xmi:id="aa933f38da15fe17e982d52f2b1d9509" source="5e12c9276adfa91ba08f44a7acba3c42" target="8851f635369e03556df9b5d4d5e8d956">
+    </attributeMappings>
+    <attributeMappings xmi:id="7b776f20bbf930b190bda1593583f1ff" source="7c524c579ad7bad9dd78e0a9113adc03" target="eab2490fc8927846ce4725ff539c7cc4">
+    </attributeMappings>
+    <attributeMappings xmi:id="a18c4c4db047663f368e4820f41fcca9" source="a22061cfd72ad85de88b0e730f4ef8f9" target="8d951f095b18b66937e5a62cac8668db">
+    </attributeMappings>
+    <attributeMappings xmi:id="32c1932619abd4f397a79710c475b2b2" source="406f9eb6919a928148792264a5271507" target="fe8d44603432792c2b9cdf4922c82ce3">
+    </attributeMappings>
+    <attributeMappings xmi:id="37e9e78bcfe9e5f9bc9340689c22dd62" source="1a7d532951f1ba85e143ee50408b3d6b" target="37190ad5d77844df4a6f1981a3617f01">
+    </attributeMappings>
+    <attributeMappings xmi:id="2e43d203bb22dded90fd8b5ea3728934" source="a93cd9ef389d2dd891f7dc66d088c4f9" target="838a9451c0f62a22faf29527a67b15fa">
+    </attributeMappings>
+    <attributeMappings xmi:id="b20b8cd35d7992448299b9d8d3fa5212" source="522f1fe7b41d182cce8998218e158c88" target="bb1712e8eca8c44996766a311e4307b7">
+    </attributeMappings>
+    <attributeMappings xmi:id="3faa91c618872b81c1c28f0658da053b" source="1a54efbfaa6c3d261a5fea6436d262ef" target="1593dca4c99a5aa67a5454a94a166fc8">
+    </attributeMappings>
+    <attributeMappings xmi:id="e944f6e9659941676df3f7a00dbadbca" source="f9185f8e8a709024273b3f0f38249bd8" target="009c018ffe1e9ca0d308665b28bfcc9c">
+    </attributeMappings>
+    <attributeMappings xmi:id="d5768c9439ea76bfde9018bd1bb947ba" source="55624e8a4bf2887235ff8c02ef8da003" target="5047b5c41e3a18b6c006644f0a987e63">
+    </attributeMappings>
+    <attributeMappings xmi:id="082fc085ece3328ff93caf36e8ae0de1" source="3381b173dbdb60c2026c2b87f06fb828" target="3314e6cf66b7e6d85e11f8d9fab36518">
+    </attributeMappings>
+    <attributeMappings xmi:id="ca7e91887f0d0d3ef984395506fa30b4" source="ac6909764e5bd82feaf7d60a3704fc70" target="c5e4cb9f51ee9d2586b1b27feb97fa90">
+    </attributeMappings>
+    <attributeMappings xmi:id="63a60fdb64ffb3322660a882908a6604" source="8168ff8ba6b5cfd041f9e3b0a8c49437" target="ec3f338a45685b5afaafbccd2f999006">
+    </attributeMappings>
+    <attributeMappings xmi:id="dea1a8c992b79bdcc8bf6220a21b8158" source="1d6f7d5307459cc0926270ce99d0d2ee" target="24ca03d3202fe2fb0723a56def9541a9">
+    </attributeMappings>
+    <attributeMappings xmi:id="4268da1c9e04640e58c9ec21881a983c" source="15c1f26795be2655f13c62aad8a2a1ac" target="3e690d69f6ade5c5762ecbfd66d0af04">
+    </attributeMappings>
+    <attributeMappings xmi:id="64e2aff531f415b2c18520f99f009a6e" source="3970a7e1b17e921455db42ef15c602eb" target="5cbdd79d21feb6e486cf8e000ed1dde3">
+    </attributeMappings>
+    <attributeMappings xmi:id="f4318e261416194656e354783361e3d0" source="3f9783a7dee9f055b780e3d2558f2c40" target="d870fea7a31fd64a84c3479cecb51110">
+    </attributeMappings>
+    <attributeMappings xmi:id="4bfab0ad644efcba175ca91f0ffbb5a0" source="e1e067302c1a1b88b8fd0daa0db1fc44" target="37a84c277dcadf9b5ef3440b26c54589">
+    </attributeMappings>
+    <attributeMappings xmi:id="dbdb5f3e0d4d2b993f14855603cb4d0a" source="d4eb6f9ddbd2a9c6997b678c0f5bceb0" target="49eb10bacf73db4d81893c047e68ebd4">
+    </attributeMappings>
+    <attributeMappings xmi:id="e90263371da11a4d3f872f3f218deca9" source="734357b96644dc68c9bab04c1e960526" target="2c06eb37f18f46046acae374644c2d31">
+    </attributeMappings>
+    <attributeMappings xmi:id="e60ed37d0748d156a274563f9b0cdb20" source="2105a765508eed5e5cec6acb1d247336" target="76552f86beef7f717d1f66109a8afa7a">
+    </attributeMappings>
+    <attributeMappings xmi:id="9f2f92fbac3475f8bebe6acc8f3e0c65" source="baacacfbc7b831289003c93cc29a4db2" target="825e4e73e2ea7f706bc51b1ec737ffaf">
+    </attributeMappings>
+    <attributeMappings xmi:id="2853dc887fb7afa6e6fed03da08d38fe" source="404db0ae19c656c68f86f52994851b88" target="c4fe6c65012fab26a18fda6435db0ff1">
+    </attributeMappings>
+    <attributeMappings xmi:id="6715b0fdfbf79c95f842d3284fcbdbc9" source="d5493d889b1f8cb4c459ddcbf0107781" target="ea3dfd013d97dd0ef66b4eda283221d6">
+    </attributeMappings>
+    <attributeMappings xmi:id="2df8fd125ecd6123e526f89ec45076a6" source="8690bb30974e3cd668e350cbb975ca12" target="0cbd3fe2f7d4009be64354ab4d94f081">
+    </attributeMappings>
+    <attributeMappings xmi:id="31b725f920fa58f86d39a993c1cd25db" source="309bef0988af51a0fc649586c05d268c" target="42146db5f29c6f5a59e1ac1f85edd1db">
+    </attributeMappings>
+    <attributeMappings xmi:id="5386994f2ac13d4f29f6b645a3136296" source="7b7a1fd1fe7fbaace49bf17d4b553b84" target="29560973e756abfb1eac5d887944409f">
+    </attributeMappings>
+    <attributeMappings xmi:id="34275a92dc56fbc0124b80a07ac99555" source="ac924f14ecc275591a81157393212000" target="ab0482cca085dce4eb9e4264f8eced82">
+    </attributeMappings>
+    <attributeMappings xmi:id="9deb2ff54b78ff7c352a6959baf7f156" source="77dc0eeaf0607f27b000e1f2c7a9b9c5" target="9fe25d0e470d2d386df811f9eb2512ac">
+    </attributeMappings>
+    <attributeMappings xmi:id="678b573e21c2a218788f494b8bab8e51" source="6b80dfba4a80840332e2b06660ee8572" target="2a9e9aa15652b72f77f12bcfe87e7035">
+    </attributeMappings>
+    <attributeMappings xmi:id="8c5bf81bb4291e6b4ab115b04c4bbb4b" source="249a989d85fffcea08fdb2857c615592" target="475f5d919e0b043c67f70fe895d1a833">
+    </attributeMappings>
+    <attributeMappings xmi:id="7acf0525dfa1c1367eb54013f828b62e" source="b1f76337de4e412db442a8ff19c6676c" target="b048b6e4e0964947c4eb5384a2d24ac6">
+    </attributeMappings>
+    <attributeMappings xmi:id="2ca417fef7cb97b1df3203265cab1d34" source="5978433414568808d30ad88506939827" target="3669926a1e2c74224b5fe63f66e8045d">
+    </attributeMappings>
+    <attributeMappings xmi:id="1a82dde3f7c338149692da0716df9de6" source="b11f690bd98deb95711f0069c30a51da" target="395e2eba9a1af929b87a757ca33fef37">
+    </attributeMappings>
+  </tableMappings>
+  <nodes xmi:id="3d1435296d4f903d5aadcac42e1baccc" xsi:type="flowgraph:DataNode" name="DataTarget" truncateTable="false" catalogObjectName="TAB_ADRC" type="TEMPLATE_TABLE">
+    <annotations key="sap.afm.layout" xmi:id="f1aa1e3d8dcd45eb1a9f8cad5024c397">
+      <annotations xmi:id="bdb2cc648f174b27d0ade15b261f0f0e" key="x" value="193">
+      </annotations>
+      <annotations xmi:id="49f3aaf8975069547d724abd86f15ddc" key="y" value="12">
+      </annotations>
+      <annotations xmi:id="6c70e63396ca4ededd44b7f53095a973" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="0f6151d9565e647bc8e30fca6160f91f" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="74784f0915ba38634bb11c1babcc6b51" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="9808acc61cd2bf3dc4fd6f157ecb5911" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="fe04b08419b739759524d8d435d6a74d" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="9c459b7014bce722dc1bdf4aca6aa5c8" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="6602c8cdbac518e284fca56ddb506f93" key="sap.afm.displayName" value="Data Target">
+    </annotations>
+    <inputs xmi:id="e151da0b80d20dc35fe8011825e07a05" name="DataTarget" kind="TABLE">
+      <attributes xmi:id="ae2064101c0e4aede6c6fbd1b49c19ad" name="CLIENT" type="NVARCHAR" nullable="false" length="3">
+        <annotations xmi:id="61387457c59ac7e5c89706d34c0ea7c1" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="9325137e1e4d2912a1befd937076a61a" name="ADDRNUMBER" type="NVARCHAR" nullable="false" length="10">
+        <annotations xmi:id="28259386fe2d8f54126c1af163430a5d" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="23d052ef2a396cc75cc064e545f39292" name="DATE_FROM" type="NVARCHAR" nullable="false" length="8">
+        <annotations xmi:id="68e5c5bbc10e0e301a4628a704a9a2f8" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="d8f369ee681d9c9e7a4c90e768bd8686" name="NATION" type="NVARCHAR" nullable="false" length="1">
+        <annotations xmi:id="557efccab4437cb30a221ea9e404871e" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="8bae89da30617548d24e7ad26d73aada" name="DATE_TO" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="da159e98828f7ca8fc136ccd114872bf" name="TITLE" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="19f5d8669bb3ece8e27c36e7f965f405" name="NAME1" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="70428e6b5770133ef3b718d999d2cd17" name="NAME2" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="7ae437c28905a118c85eac0ff5edbe8c" name="NAME3" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="9d96300aeaf05292f6e7dfb419e01d2a" name="NAME4" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="37fd886b5f7620a8ea2f42224b7a0ca8" name="NAME_TEXT" type="NVARCHAR" nullable="false" length="50">
+      </attributes>
+      <attributes xmi:id="fcc91dd9447b3b8b97633424811e75f2" name="NAME_CO" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="7041a33c96e5319f9cf030bec7a7e238" name="CITY1" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="c6d0d1f077abb0597f12f7dcc4287450" name="CITY2" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="2343f5a233df110560570bd0036f86bb" name="CITY_CODE" type="NVARCHAR" nullable="false" length="12">
+      </attributes>
+      <attributes xmi:id="7a7e60f851e68528d2dd434c209868c8" name="CITYP_CODE" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="374fbb4eb5a1953ca6ffa359be2e5ed8" name="HOME_CITY" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="0c6bc36a65033f759b3657f8cf0320a1" name="CITYH_CODE" type="NVARCHAR" nullable="false" length="12">
+      </attributes>
+      <attributes xmi:id="2f92494b56613123430a76643374db46" name="CHCKSTATUS" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="298bacf2a85ebe7e1402e4014c619bb2" name="REGIOGROUP" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="57f13ba1b21709197e17b65136769720" name="POST_CODE1" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="f8347abcd99438ac967ec23d8ff090e6" name="POST_CODE2" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="378124102ef28674261bbe2a0e76a4f2" name="POST_CODE3" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="af88b63fc59c45a4ff58d4e0393fc42d" name="PCODE1_EXT" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="09d450fba73396ff2588339bd038387a" name="PCODE2_EXT" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="bea44b22b025ae813472bc508ddb5a24" name="PCODE3_EXT" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="3d69c8816514d361313dbd85d53c5580" name="PO_BOX" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="ae7b56d3d23320b33f404a6c623a7ba6" name="DONT_USE_P" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="5bce6d9c79c58fb10b9dae31472acc3d" name="PO_BOX_NUM" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="bac8ae2bb84d7276a00d1981e83060ea" name="PO_BOX_LOC" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="4636c63b93e21603e0bd633685e246c7" name="CITY_CODE2" type="NVARCHAR" nullable="false" length="12">
+      </attributes>
+      <attributes xmi:id="6615104a00328e8bf21df145d62c552e" name="PO_BOX_REG" type="NVARCHAR" nullable="false" length="3">
+      </attributes>
+      <attributes xmi:id="f1c360def0aa5171a5cff2c43bcbddde" name="PO_BOX_CTY" type="NVARCHAR" nullable="false" length="3">
+      </attributes>
+      <attributes xmi:id="10b12f57353e0e06a6d61abf121dd958" name="POSTALAREA" type="NVARCHAR" nullable="false" length="15">
+      </attributes>
+      <attributes xmi:id="a571ee19ed07eb6effedb34f62215aa0" name="TRANSPZONE" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="f5e7a7ebc52aea9527bfeb6ea3b573f6" name="STREET" type="NVARCHAR" nullable="false" length="60">
+      </attributes>
+      <attributes xmi:id="8902621c927a5d96969026c942969e80" name="DONT_USE_S" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="501805a73a9c249e17eb9cffd0d84dd3" name="STREETCODE" type="NVARCHAR" nullable="false" length="12">
+      </attributes>
+      <attributes xmi:id="1b17ebc25999aca20b17149285e971a7" name="STREETABBR" type="NVARCHAR" nullable="false" length="2">
+      </attributes>
+      <attributes xmi:id="aea149f133e6d580635fa97fe792863b" name="HOUSE_NUM1" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="bc221162a83e711a4eddb1b3667e82dc" name="HOUSE_NUM2" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="ce7c8de37be6dbbfb705db0c4c2ff16e" name="HOUSE_NUM3" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="3c19aed626b214a62832864811987630" name="STR_SUPPL1" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="5bdbca4673cd6e96c54397a2e85d9c4c" name="STR_SUPPL2" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="fe53780224c01e1c4a47cd0b994067a9" name="STR_SUPPL3" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="733a1b56464d126505c64f645d0c7f8b" name="LOCATION" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="00e8147bdc055444eb55c53e4508047d" name="BUILDING" type="NVARCHAR" nullable="false" length="20">
+      </attributes>
+      <attributes xmi:id="db0fc926ca1229108e30763dcb66efa0" name="FLOOR" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="6b02d653aa32d1367c2849e98ba08890" name="ROOMNUMBER" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="415f310282128dbe15478c4b598187bc" name="COUNTRY" type="NVARCHAR" nullable="false" length="3">
+      </attributes>
+      <attributes xmi:id="61fb812494a0a5f8ec060663500a5ee6" name="LANGU" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="78e42360ea5014e4759bdcbdfa113a0d" name="REGION" type="NVARCHAR" nullable="false" length="3">
+      </attributes>
+      <attributes xmi:id="d9d6e1c9754e24fa930cab9d277afcbe" name="ADDR_GROUP" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="537767af0a5d922c2336159a1d21f81e" name="FLAGGROUPS" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="a36a0d8bf5da1ac11ba6c7914cd2f929" name="PERS_ADDR" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="0ed7afc81c369af8cbfe53213b73eb26" name="SORT1" type="NVARCHAR" nullable="false" length="20">
+      </attributes>
+      <attributes xmi:id="05918cab60e9ccd0d057e01da2abd951" name="SORT2" type="NVARCHAR" nullable="false" length="20">
+      </attributes>
+      <attributes xmi:id="8855abe200176debdcae7c5b1c6d4dac" name="SORT_PHN" type="NVARCHAR" nullable="false" length="20">
+      </attributes>
+      <attributes xmi:id="0809b5725938f6873387836f6ad90f6b" name="DEFLT_COMM" type="NVARCHAR" nullable="false" length="3">
+      </attributes>
+      <attributes xmi:id="ea9ac16c6ee9869e252d5c1443f033de" name="TEL_NUMBER" type="NVARCHAR" nullable="false" length="30">
+      </attributes>
+      <attributes xmi:id="70091bb7ab72708ce8ec75a24e2c88b7" name="TEL_EXTENS" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="c55057fe852892498290a2df16e649a9" name="FAX_NUMBER" type="NVARCHAR" nullable="false" length="30">
+      </attributes>
+      <attributes xmi:id="ad862bfa0e334dd51b73940e22a33582" name="FAX_EXTENS" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="ccc0c766b3b173a46e7c963885bdf164" name="FLAGCOMM2" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="2192490de6fc61583466dee53a197ca4" name="FLAGCOMM3" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="18b4608964d3dadc58ac14e154253873" name="FLAGCOMM4" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="c6a7db2553c167252ba5653bdd9037a4" name="FLAGCOMM5" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="e6dff0d674eaab388c220fd11f81c130" name="FLAGCOMM6" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="8851f635369e03556df9b5d4d5e8d956" name="FLAGCOMM7" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="eab2490fc8927846ce4725ff539c7cc4" name="FLAGCOMM8" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="8d951f095b18b66937e5a62cac8668db" name="FLAGCOMM9" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="fe8d44603432792c2b9cdf4922c82ce3" name="FLAGCOMM10" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="37190ad5d77844df4a6f1981a3617f01" name="FLAGCOMM11" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="838a9451c0f62a22faf29527a67b15fa" name="FLAGCOMM12" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="bb1712e8eca8c44996766a311e4307b7" name="FLAGCOMM13" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="1593dca4c99a5aa67a5454a94a166fc8" name="ADDRORIGIN" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="009c018ffe1e9ca0d308665b28bfcc9c" name="MC_NAME1" type="NVARCHAR" nullable="false" length="25">
+      </attributes>
+      <attributes xmi:id="5047b5c41e3a18b6c006644f0a987e63" name="MC_CITY1" type="NVARCHAR" nullable="false" length="25">
+      </attributes>
+      <attributes xmi:id="3314e6cf66b7e6d85e11f8d9fab36518" name="MC_STREET" type="NVARCHAR" nullable="false" length="25">
+      </attributes>
+      <attributes xmi:id="c5e4cb9f51ee9d2586b1b27feb97fa90" name="EXTENSION1" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="ec3f338a45685b5afaafbccd2f999006" name="EXTENSION2" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="24ca03d3202fe2fb0723a56def9541a9" name="TIME_ZONE" type="NVARCHAR" nullable="false" length="6">
+      </attributes>
+      <attributes xmi:id="3e690d69f6ade5c5762ecbfd66d0af04" name="TAXJURCODE" type="NVARCHAR" nullable="false" length="15">
+      </attributes>
+      <attributes xmi:id="5cbdd79d21feb6e486cf8e000ed1dde3" name="ADDRESS_ID" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="d870fea7a31fd64a84c3479cecb51110" name="LANGU_CREA" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="37a84c277dcadf9b5ef3440b26c54589" name="ADRC_UUID" type="VARBINARY" nullable="true" length="16">
+      </attributes>
+      <attributes xmi:id="49eb10bacf73db4d81893c047e68ebd4" name="UUID_BELATED" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="2c06eb37f18f46046acae374644c2d31" name="ID_CATEGORY" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="76552f86beef7f717d1f66109a8afa7a" name="ADRC_ERR_STATUS" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="825e4e73e2ea7f706bc51b1ec737ffaf" name="PO_BOX_LOBBY" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="c4fe6c65012fab26a18fda6435db0ff1" name="DELI_SERV_TYPE" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="ea3dfd013d97dd0ef66b4eda283221d6" name="DELI_SERV_NUMBER" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="0cbd3fe2f7d4009be64354ab4d94f081" name="COUNTY_CODE" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="42146db5f29c6f5a59e1ac1f85edd1db" name="COUNTY" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="29560973e756abfb1eac5d887944409f" name="TOWNSHIP_CODE" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="ab0482cca085dce4eb9e4264f8eced82" name="TOWNSHIP" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="9fe25d0e470d2d386df811f9eb2512ac" name="MC_COUNTY" type="NVARCHAR" nullable="false" length="25">
+      </attributes>
+      <attributes xmi:id="2a9e9aa15652b72f77f12bcfe87e7035" name="MC_TOWNSHIP" type="NVARCHAR" nullable="false" length="25">
+      </attributes>
+      <attributes xmi:id="475f5d919e0b043c67f70fe895d1a833" name="XPCPT" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="b048b6e4e0964947c4eb5384a2d24ac6" name="_DATAAGING" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="3669926a1e2c74224b5fe63f66e8045d" name="DUNS" type="NVARCHAR" nullable="false" length="9">
+      </attributes>
+      <attributes xmi:id="395e2eba9a1af929b87a757ca33fef37" name="DUNSP4" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+    </inputs>
+  </nodes>
+  <nodes xmi:id="a6ad9e65e9800719c9e62e5bf061cc09" name="DataSource" catalogObjectName="REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_ADRC" type="VIRTUAL_TABLE" xsi:type="flowgraph:DataNode" dataLayout="ROW">
+    <annotations key="sap.afm.layout" xmi:id="e8f586b944d086d8b51254e4222a9895">
+      <annotations xmi:id="e6609604e8e8b7bdd6de02ba8cde5b65" key="x" value="12">
+      </annotations>
+      <annotations xmi:id="6c8751a976f9f50e7a1424b7777ab666" key="y" value="12">
+      </annotations>
+      <annotations xmi:id="d084efb860bc7d4774e8facc0625fbe8" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="1e12797fff3014a02943a2db6f6f132a" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="52a56f62dd09645bbadb8f867c9f92e5" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="055a7e980d24a1ec2e8df6c3ea183ee6" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="b14ce7fe211ed6bfbf12834bf203c7d6" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="795cf9ab068534025846784e0135344c" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="e8044b36ebcdda1139667e1666935220" key="sap.afm.displayName" value="Data Source">
+    </annotations>
+    <annotations xmi:id="c78f213a7b8cf3333d66e53a1d77af71" key="columns" value="[{&quot;name&quot;:&quot;CLIENT&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:3,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;872a895a495f90e7e431ba1f1c23b9ea&quot;},{&quot;name&quot;:&quot;ADDRNUMBER&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;1af5e13326dc796dd116f2cbaca07342&quot;},{&quot;name&quot;:&quot;DATE_FROM&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:8,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;ee8f60c6364eeb57a75f082b0224f2d4&quot;},{&quot;name&quot;:&quot;NATION&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;ef7ee8dadd45ee231b69df615b462269&quot;},{&quot;name&quot;:&quot;DATE_TO&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:8,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;48b54be8d6aa3a5fb57842815f40091f&quot;},{&quot;name&quot;:&quot;TITLE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:4,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;e44373c1240d602d6b5a3161efe24ed4&quot;},{&quot;name&quot;:&quot;NAME1&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;764767b83f72e6b67a4b307ff29cba6d&quot;},{&quot;name&quot;:&quot;NAME2&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;908fd3c311c634e3ec1ab475808bd996&quot;},{&quot;name&quot;:&quot;NAME3&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;e80b01b656570398e2e29433a574d76a&quot;},{&quot;name&quot;:&quot;NAME4&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;1a05b34e5fde98c29d554b7e3e7aae5b&quot;},{&quot;name&quot;:&quot;NAME_TEXT&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:50,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;cf130f6daf92194c559770c6a8f6aa48&quot;},{&quot;name&quot;:&quot;NAME_CO&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;69fa4e0c62de9b6906368f9c7ff07ccc&quot;},{&quot;name&quot;:&quot;CITY1&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;080d52e0c200de883933940b22d9dd36&quot;},{&quot;name&quot;:&quot;CITY2&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;91abe0821fea254e072be67d062b43c4&quot;},{&quot;name&quot;:&quot;CITY_CODE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:12,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;fe769e8fe0a177c244d1609096e55faa&quot;},{&quot;name&quot;:&quot;CITYP_CODE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:8,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;31d4d1c1bf5aa683ac69d8d84822488f&quot;},{&quot;name&quot;:&quot;HOME_CITY&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;3391f0c05f01b5ef59606ead8dece116&quot;},{&quot;name&quot;:&quot;CITYH_CODE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:12,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;2efa86ff939c5fa12d2a67e5d6cd6e2c&quot;},{&quot;name&quot;:&quot;CHCKSTATUS&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;7c9873377c7bda2d892fa72562090cdb&quot;},{&quot;name&quot;:&quot;REGIOGROUP&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:8,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;4df01ae20ffdb019190f920d64e1e718&quot;},{&quot;name&quot;:&quot;POST_CODE1&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;260c58c11785e30b1515a8e91ea78874&quot;},{&quot;name&quot;:&quot;POST_CODE2&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;feb2aa5bf90e45d61499b283bcbe2d43&quot;},{&quot;name&quot;:&quot;POST_CODE3&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;5aa3aa458cf7a37eeed457ec7745e519&quot;},{&quot;name&quot;:&quot;PCODE1_EXT&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;71a123b35b3bfe8db766cb6d4ace6603&quot;},{&quot;name&quot;:&quot;PCODE2_EXT&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;1db9c14b282e46cda53fa09966691ed9&quot;},{&quot;name&quot;:&quot;PCODE3_EXT&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;f9c90743cccbbd0472171156dc266bc8&quot;},{&quot;name&quot;:&quot;PO_BOX&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;a92d9b4ba25c46c832789dee7da3bc58&quot;},{&quot;name&quot;:&quot;DONT_USE_P&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:4,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;949e9a2391b33874bf51ca991ac44969&quot;},{&quot;name&quot;:&quot;PO_BOX_NUM&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;6cd66b5e85aff1ca1764b6950276bd04&quot;},{&quot;name&quot;:&quot;PO_BOX_LOC&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;c1d00102b7f1b1eee0d41b176d19850e&quot;},{&quot;name&quot;:&quot;CITY_CODE2&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:12,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;10a4d81a4f71f19d75a15248a34269f2&quot;},{&quot;name&quot;:&quot;PO_BOX_REG&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:3,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;619fd0ae20a4aa5826dc5080cd6b6d36&quot;},{&quot;name&quot;:&quot;PO_BOX_CTY&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:3,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;b5ec6910be138cc616274072c1e4b92e&quot;},{&quot;name&quot;:&quot;POSTALAREA&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:15,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;7f735ba86c0b6d0e4eabb5a2ed18b894&quot;},{&quot;name&quot;:&quot;TRANSPZONE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;b99a8c4a9f60c07c6335a4101c9ac909&quot;},{&quot;name&quot;:&quot;STREET&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:60,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;d36032d251ab04fda6c375e536d516b0&quot;},{&quot;name&quot;:&quot;DONT_USE_S&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:4,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;cc1139b5f0eed9e42b6413775b49f86c&quot;},{&quot;name&quot;:&quot;STREETCODE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:12,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;4ebad8c2b0526464d3d65ab3f99f97c5&quot;},{&quot;name&quot;:&quot;STREETABBR&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:2,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;c2d7d9525ff0fae52357c47757079774&quot;},{&quot;name&quot;:&quot;HOUSE_NUM1&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;d59e5b14b9482a56a4d03a66c700c65e&quot;},{&quot;name&quot;:&quot;HOUSE_NUM2&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;96fd6d1725e5c8e27a187fa9c3efedd0&quot;},{&quot;name&quot;:&quot;HOUSE_NUM3&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;4584d8c3ced2ed8ffe39bbd0251609de&quot;},{&quot;name&quot;:&quot;STR_SUPPL1&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;52d03a7e43d00769a9221b51d5fd4de9&quot;},{&quot;name&quot;:&quot;STR_SUPPL2&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;181d9043331e779aba1d73a408c5d311&quot;},{&quot;name&quot;:&quot;STR_SUPPL3&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;5df99a8f6477b5e0b74afd7d47571f9f&quot;},{&quot;name&quot;:&quot;LOCATION&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;77df6f2fd19267fdcb869b37b153c7a0&quot;},{&quot;name&quot;:&quot;BUILDING&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;ed453257fc24abe0e9c277356f08123d&quot;},{&quot;name&quot;:&quot;FLOOR&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;e24f357bc1d5027db8c0780bafc32d58&quot;},{&quot;name&quot;:&quot;ROOMNUMBER&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;c875784cbd77d3c61ec366304ec4ac4f&quot;},{&quot;name&quot;:&quot;COUNTRY&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:3,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;948f66622e0a23fba6a1d3714a157020&quot;},{&quot;name&quot;:&quot;LANGU&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;9ff4fc8d4087fbd4b09fe4d2584890fe&quot;},{&quot;name&quot;:&quot;REGION&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:3,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;572beac2e817714961f3a255cf832e49&quot;},{&quot;name&quot;:&quot;ADDR_GROUP&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:4,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;ac21e3b043c9ed2790582f8197fc4c6e&quot;},{&quot;name&quot;:&quot;FLAGGROUPS&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;e4d1fefb62aee9e8e4a89dc8cfd00aac&quot;},{&quot;name&quot;:&quot;PERS_ADDR&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;6d04020504f9e0fa0ff9b5ce05b46a27&quot;},{&quot;name&quot;:&quot;SORT1&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;7079edd65b1da2420f91281a1f75e49e&quot;},{&quot;name&quot;:&quot;SORT2&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;70f6af628df82c0f01d0253d51a0022a&quot;},{&quot;name&quot;:&quot;SORT_PHN&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;c7321db3595dfc3306d0fc15c9ab5831&quot;},{&quot;name&quot;:&quot;DEFLT_COMM&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:3,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;101b3d52ce94ecec6f9d5cb9f642ae2a&quot;},{&quot;name&quot;:&quot;TEL_NUMBER&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:30,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;c3fb5328cf23cb11a0dec94cdb360fa3&quot;},{&quot;name&quot;:&quot;TEL_EXTENS&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;7f4e8a36ad6f17fb4e9fabd5289a9cda&quot;},{&quot;name&quot;:&quot;FAX_NUMBER&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:30,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;07090901e1028d73197e16ec6f1eb8d2&quot;},{&quot;name&quot;:&quot;FAX_EXTENS&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;efb976e66da523a729e39b9ad8533c0a&quot;},{&quot;name&quot;:&quot;FLAGCOMM2&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;bc53bdde6eca94517f76f7b2cf7603d8&quot;},{&quot;name&quot;:&quot;FLAGCOMM3&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;44df8808b66824ef2c7c591a7c4ace73&quot;},{&quot;name&quot;:&quot;FLAGCOMM4&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;2941ecfc4cf71c0e7c94221915895284&quot;},{&quot;name&quot;:&quot;FLAGCOMM5&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;139a8a198fc8837fde5a09201c90363c&quot;},{&quot;name&quot;:&quot;FLAGCOMM6&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;9c60006ab6ee8d6c7fa2191ca3d6e49b&quot;},{&quot;name&quot;:&quot;FLAGCOMM7&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;5e12c9276adfa91ba08f44a7acba3c42&quot;},{&quot;name&quot;:&quot;FLAGCOMM8&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;7c524c579ad7bad9dd78e0a9113adc03&quot;},{&quot;name&quot;:&quot;FLAGCOMM9&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;a22061cfd72ad85de88b0e730f4ef8f9&quot;},{&quot;name&quot;:&quot;FLAGCOMM10&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;406f9eb6919a928148792264a5271507&quot;},{&quot;name&quot;:&quot;FLAGCOMM11&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;1a7d532951f1ba85e143ee50408b3d6b&quot;},{&quot;name&quot;:&quot;FLAGCOMM12&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;a93cd9ef389d2dd891f7dc66d088c4f9&quot;},{&quot;name&quot;:&quot;FLAGCOMM13&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;522f1fe7b41d182cce8998218e158c88&quot;},{&quot;name&quot;:&quot;ADDRORIGIN&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:4,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;1a54efbfaa6c3d261a5fea6436d262ef&quot;},{&quot;name&quot;:&quot;MC_NAME1&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:25,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;f9185f8e8a709024273b3f0f38249bd8&quot;},{&quot;name&quot;:&quot;MC_CITY1&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:25,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;55624e8a4bf2887235ff8c02ef8da003&quot;},{&quot;name&quot;:&quot;MC_STREET&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:25,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;3381b173dbdb60c2026c2b87f06fb828&quot;},{&quot;name&quot;:&quot;EXTENSION1&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;ac6909764e5bd82feaf7d60a3704fc70&quot;},{&quot;name&quot;:&quot;EXTENSION2&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;8168ff8ba6b5cfd041f9e3b0a8c49437&quot;},{&quot;name&quot;:&quot;TIME_ZONE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:6,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;1d6f7d5307459cc0926270ce99d0d2ee&quot;},{&quot;name&quot;:&quot;TAXJURCODE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:15,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;15c1f26795be2655f13c62aad8a2a1ac&quot;},{&quot;name&quot;:&quot;ADDRESS_ID&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;3970a7e1b17e921455db42ef15c602eb&quot;},{&quot;name&quot;:&quot;LANGU_CREA&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;3f9783a7dee9f055b780e3d2558f2c40&quot;},{&quot;name&quot;:&quot;ADRC_UUID&quot;,&quot;type&quot;:&quot;VARBINARY&quot;,&quot;length&quot;:16,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;e1e067302c1a1b88b8fd0daa0db1fc44&quot;},{&quot;name&quot;:&quot;UUID_BELATED&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;d4eb6f9ddbd2a9c6997b678c0f5bceb0&quot;},{&quot;name&quot;:&quot;ID_CATEGORY&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;734357b96644dc68c9bab04c1e960526&quot;},{&quot;name&quot;:&quot;ADRC_ERR_STATUS&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;2105a765508eed5e5cec6acb1d247336&quot;},{&quot;name&quot;:&quot;PO_BOX_LOBBY&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;baacacfbc7b831289003c93cc29a4db2&quot;},{&quot;name&quot;:&quot;DELI_SERV_TYPE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:4,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;404db0ae19c656c68f86f52994851b88&quot;},{&quot;name&quot;:&quot;DELI_SERV_NUMBER&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;d5493d889b1f8cb4c459ddcbf0107781&quot;},{&quot;name&quot;:&quot;COUNTY_CODE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:8,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;8690bb30974e3cd668e350cbb975ca12&quot;},{&quot;name&quot;:&quot;COUNTY&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;309bef0988af51a0fc649586c05d268c&quot;},{&quot;name&quot;:&quot;TOWNSHIP_CODE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:8,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;7b7a1fd1fe7fbaace49bf17d4b553b84&quot;},{&quot;name&quot;:&quot;TOWNSHIP&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:40,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;ac924f14ecc275591a81157393212000&quot;},{&quot;name&quot;:&quot;MC_COUNTY&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:25,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;77dc0eeaf0607f27b000e1f2c7a9b9c5&quot;},{&quot;name&quot;:&quot;MC_TOWNSHIP&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:25,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;6b80dfba4a80840332e2b06660ee8572&quot;},{&quot;name&quot;:&quot;XPCPT&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;249a989d85fffcea08fdb2857c615592&quot;},{&quot;name&quot;:&quot;_DATAAGING&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:8,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;b1f76337de4e412db442a8ff19c6676c&quot;},{&quot;name&quot;:&quot;DUNS&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:9,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;5978433414568808d30ad88506939827&quot;},{&quot;name&quot;:&quot;DUNSP4&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:4,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;b11f690bd98deb95711f0069c30a51da&quot;}]">
+    </annotations>
+    <annotations xmi:id="304798e35d5ee2b51417b8f94294e95a" key="sap.im.realtime" value="true">
+    </annotations>
+    <outputs xmi:id="1990ef515dc80465ad92a6f5a0cb9749" name="DataSource">
+      <attributes xmi:id="872a895a495f90e7e431ba1f1c23b9ea" name="CLIENT" type="NVARCHAR" nullable="false" length="3">
+        <annotations xmi:id="34f813b8db0d66bdc3eb9367f379a3ce" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="1af5e13326dc796dd116f2cbaca07342" name="ADDRNUMBER" type="NVARCHAR" nullable="false" length="10">
+        <annotations xmi:id="fb02d97e2d8f894a16cc7d9cbcac9b05" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="ee8f60c6364eeb57a75f082b0224f2d4" name="DATE_FROM" type="NVARCHAR" nullable="false" length="8">
+        <annotations xmi:id="6484c22f643a88a150074dcdf43c9512" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="ef7ee8dadd45ee231b69df615b462269" name="NATION" type="NVARCHAR" nullable="false" length="1">
+        <annotations xmi:id="a54846d09878ae1ac2f9e1093e1590a4" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="48b54be8d6aa3a5fb57842815f40091f" name="DATE_TO" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="e44373c1240d602d6b5a3161efe24ed4" name="TITLE" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="764767b83f72e6b67a4b307ff29cba6d" name="NAME1" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="908fd3c311c634e3ec1ab475808bd996" name="NAME2" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="e80b01b656570398e2e29433a574d76a" name="NAME3" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="1a05b34e5fde98c29d554b7e3e7aae5b" name="NAME4" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="cf130f6daf92194c559770c6a8f6aa48" name="NAME_TEXT" type="NVARCHAR" nullable="false" length="50">
+      </attributes>
+      <attributes xmi:id="69fa4e0c62de9b6906368f9c7ff07ccc" name="NAME_CO" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="080d52e0c200de883933940b22d9dd36" name="CITY1" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="91abe0821fea254e072be67d062b43c4" name="CITY2" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="fe769e8fe0a177c244d1609096e55faa" name="CITY_CODE" type="NVARCHAR" nullable="false" length="12">
+      </attributes>
+      <attributes xmi:id="31d4d1c1bf5aa683ac69d8d84822488f" name="CITYP_CODE" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="3391f0c05f01b5ef59606ead8dece116" name="HOME_CITY" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="2efa86ff939c5fa12d2a67e5d6cd6e2c" name="CITYH_CODE" type="NVARCHAR" nullable="false" length="12">
+      </attributes>
+      <attributes xmi:id="7c9873377c7bda2d892fa72562090cdb" name="CHCKSTATUS" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="4df01ae20ffdb019190f920d64e1e718" name="REGIOGROUP" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="260c58c11785e30b1515a8e91ea78874" name="POST_CODE1" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="feb2aa5bf90e45d61499b283bcbe2d43" name="POST_CODE2" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="5aa3aa458cf7a37eeed457ec7745e519" name="POST_CODE3" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="71a123b35b3bfe8db766cb6d4ace6603" name="PCODE1_EXT" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="1db9c14b282e46cda53fa09966691ed9" name="PCODE2_EXT" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="f9c90743cccbbd0472171156dc266bc8" name="PCODE3_EXT" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="a92d9b4ba25c46c832789dee7da3bc58" name="PO_BOX" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="949e9a2391b33874bf51ca991ac44969" name="DONT_USE_P" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="6cd66b5e85aff1ca1764b6950276bd04" name="PO_BOX_NUM" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="c1d00102b7f1b1eee0d41b176d19850e" name="PO_BOX_LOC" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="10a4d81a4f71f19d75a15248a34269f2" name="CITY_CODE2" type="NVARCHAR" nullable="false" length="12">
+      </attributes>
+      <attributes xmi:id="619fd0ae20a4aa5826dc5080cd6b6d36" name="PO_BOX_REG" type="NVARCHAR" nullable="false" length="3">
+      </attributes>
+      <attributes xmi:id="b5ec6910be138cc616274072c1e4b92e" name="PO_BOX_CTY" type="NVARCHAR" nullable="false" length="3">
+      </attributes>
+      <attributes xmi:id="7f735ba86c0b6d0e4eabb5a2ed18b894" name="POSTALAREA" type="NVARCHAR" nullable="false" length="15">
+      </attributes>
+      <attributes xmi:id="b99a8c4a9f60c07c6335a4101c9ac909" name="TRANSPZONE" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="d36032d251ab04fda6c375e536d516b0" name="STREET" type="NVARCHAR" nullable="false" length="60">
+      </attributes>
+      <attributes xmi:id="cc1139b5f0eed9e42b6413775b49f86c" name="DONT_USE_S" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="4ebad8c2b0526464d3d65ab3f99f97c5" name="STREETCODE" type="NVARCHAR" nullable="false" length="12">
+      </attributes>
+      <attributes xmi:id="c2d7d9525ff0fae52357c47757079774" name="STREETABBR" type="NVARCHAR" nullable="false" length="2">
+      </attributes>
+      <attributes xmi:id="d59e5b14b9482a56a4d03a66c700c65e" name="HOUSE_NUM1" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="96fd6d1725e5c8e27a187fa9c3efedd0" name="HOUSE_NUM2" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="4584d8c3ced2ed8ffe39bbd0251609de" name="HOUSE_NUM3" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="52d03a7e43d00769a9221b51d5fd4de9" name="STR_SUPPL1" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="181d9043331e779aba1d73a408c5d311" name="STR_SUPPL2" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="5df99a8f6477b5e0b74afd7d47571f9f" name="STR_SUPPL3" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="77df6f2fd19267fdcb869b37b153c7a0" name="LOCATION" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="ed453257fc24abe0e9c277356f08123d" name="BUILDING" type="NVARCHAR" nullable="false" length="20">
+      </attributes>
+      <attributes xmi:id="e24f357bc1d5027db8c0780bafc32d58" name="FLOOR" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="c875784cbd77d3c61ec366304ec4ac4f" name="ROOMNUMBER" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="948f66622e0a23fba6a1d3714a157020" name="COUNTRY" type="NVARCHAR" nullable="false" length="3">
+      </attributes>
+      <attributes xmi:id="9ff4fc8d4087fbd4b09fe4d2584890fe" name="LANGU" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="572beac2e817714961f3a255cf832e49" name="REGION" type="NVARCHAR" nullable="false" length="3">
+      </attributes>
+      <attributes xmi:id="ac21e3b043c9ed2790582f8197fc4c6e" name="ADDR_GROUP" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="e4d1fefb62aee9e8e4a89dc8cfd00aac" name="FLAGGROUPS" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="6d04020504f9e0fa0ff9b5ce05b46a27" name="PERS_ADDR" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="7079edd65b1da2420f91281a1f75e49e" name="SORT1" type="NVARCHAR" nullable="false" length="20">
+      </attributes>
+      <attributes xmi:id="70f6af628df82c0f01d0253d51a0022a" name="SORT2" type="NVARCHAR" nullable="false" length="20">
+      </attributes>
+      <attributes xmi:id="c7321db3595dfc3306d0fc15c9ab5831" name="SORT_PHN" type="NVARCHAR" nullable="false" length="20">
+      </attributes>
+      <attributes xmi:id="101b3d52ce94ecec6f9d5cb9f642ae2a" name="DEFLT_COMM" type="NVARCHAR" nullable="false" length="3">
+      </attributes>
+      <attributes xmi:id="c3fb5328cf23cb11a0dec94cdb360fa3" name="TEL_NUMBER" type="NVARCHAR" nullable="false" length="30">
+      </attributes>
+      <attributes xmi:id="7f4e8a36ad6f17fb4e9fabd5289a9cda" name="TEL_EXTENS" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="07090901e1028d73197e16ec6f1eb8d2" name="FAX_NUMBER" type="NVARCHAR" nullable="false" length="30">
+      </attributes>
+      <attributes xmi:id="efb976e66da523a729e39b9ad8533c0a" name="FAX_EXTENS" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="bc53bdde6eca94517f76f7b2cf7603d8" name="FLAGCOMM2" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="44df8808b66824ef2c7c591a7c4ace73" name="FLAGCOMM3" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="2941ecfc4cf71c0e7c94221915895284" name="FLAGCOMM4" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="139a8a198fc8837fde5a09201c90363c" name="FLAGCOMM5" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="9c60006ab6ee8d6c7fa2191ca3d6e49b" name="FLAGCOMM6" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="5e12c9276adfa91ba08f44a7acba3c42" name="FLAGCOMM7" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="7c524c579ad7bad9dd78e0a9113adc03" name="FLAGCOMM8" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="a22061cfd72ad85de88b0e730f4ef8f9" name="FLAGCOMM9" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="406f9eb6919a928148792264a5271507" name="FLAGCOMM10" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="1a7d532951f1ba85e143ee50408b3d6b" name="FLAGCOMM11" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="a93cd9ef389d2dd891f7dc66d088c4f9" name="FLAGCOMM12" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="522f1fe7b41d182cce8998218e158c88" name="FLAGCOMM13" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="1a54efbfaa6c3d261a5fea6436d262ef" name="ADDRORIGIN" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="f9185f8e8a709024273b3f0f38249bd8" name="MC_NAME1" type="NVARCHAR" nullable="false" length="25">
+      </attributes>
+      <attributes xmi:id="55624e8a4bf2887235ff8c02ef8da003" name="MC_CITY1" type="NVARCHAR" nullable="false" length="25">
+      </attributes>
+      <attributes xmi:id="3381b173dbdb60c2026c2b87f06fb828" name="MC_STREET" type="NVARCHAR" nullable="false" length="25">
+      </attributes>
+      <attributes xmi:id="ac6909764e5bd82feaf7d60a3704fc70" name="EXTENSION1" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="8168ff8ba6b5cfd041f9e3b0a8c49437" name="EXTENSION2" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="1d6f7d5307459cc0926270ce99d0d2ee" name="TIME_ZONE" type="NVARCHAR" nullable="false" length="6">
+      </attributes>
+      <attributes xmi:id="15c1f26795be2655f13c62aad8a2a1ac" name="TAXJURCODE" type="NVARCHAR" nullable="false" length="15">
+      </attributes>
+      <attributes xmi:id="3970a7e1b17e921455db42ef15c602eb" name="ADDRESS_ID" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="3f9783a7dee9f055b780e3d2558f2c40" name="LANGU_CREA" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="e1e067302c1a1b88b8fd0daa0db1fc44" name="ADRC_UUID" type="VARBINARY" nullable="true" length="16">
+      </attributes>
+      <attributes xmi:id="d4eb6f9ddbd2a9c6997b678c0f5bceb0" name="UUID_BELATED" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="734357b96644dc68c9bab04c1e960526" name="ID_CATEGORY" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="2105a765508eed5e5cec6acb1d247336" name="ADRC_ERR_STATUS" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="baacacfbc7b831289003c93cc29a4db2" name="PO_BOX_LOBBY" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="404db0ae19c656c68f86f52994851b88" name="DELI_SERV_TYPE" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+      <attributes xmi:id="d5493d889b1f8cb4c459ddcbf0107781" name="DELI_SERV_NUMBER" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="8690bb30974e3cd668e350cbb975ca12" name="COUNTY_CODE" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="309bef0988af51a0fc649586c05d268c" name="COUNTY" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="7b7a1fd1fe7fbaace49bf17d4b553b84" name="TOWNSHIP_CODE" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="ac924f14ecc275591a81157393212000" name="TOWNSHIP" type="NVARCHAR" nullable="false" length="40">
+      </attributes>
+      <attributes xmi:id="77dc0eeaf0607f27b000e1f2c7a9b9c5" name="MC_COUNTY" type="NVARCHAR" nullable="false" length="25">
+      </attributes>
+      <attributes xmi:id="6b80dfba4a80840332e2b06660ee8572" name="MC_TOWNSHIP" type="NVARCHAR" nullable="false" length="25">
+      </attributes>
+      <attributes xmi:id="249a989d85fffcea08fdb2857c615592" name="XPCPT" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="b1f76337de4e412db442a8ff19c6676c" name="_DATAAGING" type="NVARCHAR" nullable="false" length="8">
+      </attributes>
+      <attributes xmi:id="5978433414568808d30ad88506939827" name="DUNS" type="NVARCHAR" nullable="false" length="9">
+      </attributes>
+      <attributes xmi:id="b11f690bd98deb95711f0069c30a51da" name="DUNSP4" type="NVARCHAR" nullable="false" length="4">
+      </attributes>
+    </outputs>
+  </nodes>
+</flowgraph:ContainerNode>
