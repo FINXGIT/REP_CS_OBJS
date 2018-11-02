@@ -1,0 +1,10 @@
+{
+  "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BSID": {
+    "target": {
+      "remote": "FDS_SDI",
+      "database": "FDH",
+      "schema": "SAPABAP1",
+      "object": "BSID"
+    }
+  }
+} 
