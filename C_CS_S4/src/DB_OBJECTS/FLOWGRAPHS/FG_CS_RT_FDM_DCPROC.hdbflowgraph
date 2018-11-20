@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowgraph:ContainerNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:id="cfe50e621a9cf16930bf62908050bbf2" name="FG_CS_RT_FDM_DCPROC" runtimeBehavior="BATCH_TASK">
+  <annotations key="sap.afm.layout" xmi:id="40f6fde9e26344d50bb46bf7663568f2">
+    <annotations xmi:id="d7601637e7ed71e2627a1d88f7cb31aa" key="x" value="10">
+    </annotations>
+    <annotations xmi:id="9faa1d104554ac5c62002f67f19350a6" key="y" value="10">
+    </annotations>
+    <annotations xmi:id="3e8e6910e7720a96451fce9ab36d1b08" key="width" value="100">
+    </annotations>
+    <annotations xmi:id="4c29aa9c4eb53f62546b6df8c888ff82" key="height" value="84">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="48e48c7fb2f83ac8043422aaa143fbc4" key="sap.afm.palette">
+    <annotations xmi:id="ac3e087fc187795b97c83490cb91b83b" key="additions" value="">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="5226fdc5971c674466221c769dd8a7b5" key="sap.afm.nodeType" value="ContainerNode">
+  </annotations>
+  <annotations xmi:id="a6cbf9dbe0325d353e4108cb6c668de1" key="sap.afm.nodeInputs">
+  </annotations>
+  <annotations xmi:id="d5a91a5789ffa5c334b629751c221f59" key="sap.afm.nodeOutputs">
+  </annotations>
+  <tableMappings xmi:id="3fc1572f209c2e202af23f4a76d8bbac" source="d1982f52199da0fc945fbf0e16a34e6a" target="abbc580cbce6775200ffb9990b642159">
+    <attributeMappings xmi:id="1d2c43c822d98788589de8cf3e7b03bc" source="833adf353b5277c61017ca0ec1fde803" target="87152f789a151c980c8c8a0cd3ac5186">
+    </attributeMappings>
+    <attributeMappings xmi:id="cfe7ae744cab108efecce1ab63e112cb" source="d1e95f80795abb6218e625e94f4f207d" target="e59ec0bb848012a8f76dcc53f867f95f">
+    </attributeMappings>
+    <attributeMappings xmi:id="3739d3231adaf281adffc4d6c04d89c7" source="2510fcb132ae3dcb3b37c2e27f824a12" target="99f6bd9283772a3a6b9cf8d6a48fddb8">
+    </attributeMappings>
+    <attributeMappings xmi:id="35a9b0d658dc06b649e5ec5af4a83c2c" source="edbb80e15474a1b567ec3c1dcd777e1c" target="b5b434fbea52083a48e2f95c6f063a4a">
+    </attributeMappings>
+    <attributeMappings xmi:id="32afee275f5d8ccc384b5860c459e684" source="b9feeb62e60efa079b0a5c9647b6e6b7" target="478a74731a4a712136700520d2f83b1f">
+    </attributeMappings>
+    <attributeMappings xmi:id="c65665934626eb5b4a9e7006c6b1ec33" source="54dfcf3794794a76b35cbf9b66b2ed08" target="27e0fff2b66ec7838bc973fc65baf0d1">
+    </attributeMappings>
+    <attributeMappings xmi:id="43d52fad97b5f77372f4edd3b6a9dabd" source="3bd1b04f45403f8a919ee2080ca1f409" target="cfccebb5c09d124704aaca7ade3476d2">
+    </attributeMappings>
+    <attributeMappings xmi:id="2fe4b3beb623bfa927ffc106b3d7e600" source="2d85d4e45800644a2edbbbb5c8791a38" target="e5cea3ded8c312fa78de8420e814e224">
+    </attributeMappings>
+    <attributeMappings xmi:id="9b85a8a6a0b525d7d341d2cafaca6ec6" source="e9610131a5c673fbbaafdd3df532ed0c" target="fc638373e334c3de718a09c9eec82f62">
+    </attributeMappings>
+    <attributeMappings xmi:id="cb2ae255d764ea5784cad80cf9610d6d" source="8f3f6e5a1989a988a1d4a47605ee6c26" target="2f78870cce88b4986b7c2997b2765f86">
+    </attributeMappings>
+    <attributeMappings xmi:id="3e718e57fc41f6558f5ec42ade6dc965" source="1326865f4e030f2a11f095be9e1515ca" target="656cec707f14b52e8105c8139a6ba770">
+    </attributeMappings>
+    <attributeMappings xmi:id="dd5177dcc07a04c2799ac507732a47a2" source="6eab66da950b3406f58ea9bbbf706117" target="e903dfd52f05aa2bbd9323349aaf9585">
+    </attributeMappings>
+    <attributeMappings xmi:id="e5caec57a48a03da13132c3ecac21b99" source="832916a3e72ffa770f92d825df6f7baf" target="9e30b83281e2a45b4da5d68675ab01df">
+    </attributeMappings>
+    <attributeMappings xmi:id="0eba6cb1b9f0d6209707576b97a09827" source="f2060c9c7cd63bdbf72c3abc2c26c00d" target="c5685678c25b6d5fefd9da04e1039d68">
+    </attributeMappings>
+    <attributeMappings xmi:id="891d3132dbb3df29e2a3bc1d653219d6" source="7b8a01f36b5f6ab76b68717d0833fb13" target="f029e1141246f2991f464d04167335a7">
+    </attributeMappings>
+    <attributeMappings xmi:id="df2db6402e08702da0f270fc26679515" source="77348fe4e2c65865b3730ad25680ee24" target="82fc0b227b81e4199fc996afef3c4be8">
+    </attributeMappings>
+    <attributeMappings xmi:id="fa0cd4aa05f014e6b298fea045dbb3ee" source="bcf17f54762663bb0596503b6a048ad3" target="88e904e18222d809df45f74c5645ffeb">
+    </attributeMappings>
+    <attributeMappings xmi:id="fdd87133b9214c4c4b578b9fb743440c" source="1a74753cf122cf8ccc698c0d1385dd26" target="d3dc5299f17aadcd559dc6febaedaf47">
+    </attributeMappings>
+    <attributeMappings xmi:id="03975b1de628d5bd2291a519fa84f4c5" source="a771a3e1807d05ea8580d7468107487a" target="7026074bdb4fe81fc7ea95b50654158e">
+    </attributeMappings>
+    <attributeMappings xmi:id="ac91cd8db1d6f755db232ce4579fe5ee" source="7f203aa50dace3add748b8863ee24a3a" target="a5607ccebd2a2c0dd8756ba2fa708c2a">
+    </attributeMappings>
+    <attributeMappings xmi:id="99ee97343ef2f653a08c885c6a06e95a" source="84f94bc9776cbf33ce3c867a68f9eaea" target="6b078fa30180693361dbed6685ecfae1">
+    </attributeMappings>
+    <attributeMappings xmi:id="0f740e03e740a7123c2e5977f250e6a7" source="1c4ca1541014a7cf82f99c4d433a55dd" target="95690da95529ecbf8d18c74d8af60a6c">
+    </attributeMappings>
+    <attributeMappings xmi:id="cad0aa2439d3358a5db8fb19fee48b0c" source="c52a380c2cfc56035f43101f637ee013" target="5b8f8a60b973d856d02858a9489bfb9c">
+    </attributeMappings>
+  </tableMappings>
+  <nodes xmi:id="a036dd055e6bbe73a5d98ea4bf12ec82" xsi:type="flowgraph:DataNode" name="DataTarget" truncateTable="false" catalogObjectName="TAB_FDM_DCPROC" type="TEMPLATE_TABLE">
+    <annotations key="sap.afm.layout" xmi:id="351ba39e9a563cb0e9025e3321204c13">
+      <annotations xmi:id="02e4e7510d2a67389115cbb3d610515a" key="x" value="369">
+      </annotations>
+      <annotations xmi:id="73d3ac967484a1d25a527d2ddf6e3604" key="y" value="118">
+      </annotations>
+      <annotations xmi:id="26599a9d9d0a8a5bc392490eff11d30f" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="7a85dfe6ba693bf65500cb39a70dea61" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="e4b6c0e26906062c3aa7e14ffd174317" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="876ffe0e877f6161590c70480550b5b5" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="4c4e177d200dd32d0bbbe496777a4f06" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="103b055002e6f26ed6f4e7d944c9b5ca" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="2cf0ff7eb5defa467e52fa4b61cd7f08" key="sap.afm.displayName" value="Data Target">
+    </annotations>
+    <inputs xmi:id="abbc580cbce6775200ffb9990b642159" name="DataTarget" kind="TABLE">
+      <attributes xmi:id="87152f789a151c980c8c8a0cd3ac5186" name="MANDT" type="NVARCHAR" nullable="false" length="3">
+        <annotations xmi:id="9a031468815c3320fc4c42682a011008" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="e59ec0bb848012a8f76dcc53f867f95f" name="CASE_GUID_LOC" type="NVARCHAR" nullable="false" length="32">
+        <annotations xmi:id="b94607aa7c5cec14e98fd422f4f3a721" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="99f6bd9283772a3a6b9cf8d6a48fddb8" name="PROC_SEQNR" type="NVARCHAR" nullable="false" length="3">
+        <annotations xmi:id="c78c52f54cd0bf976a89324308d9c454" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="b5b434fbea52083a48e2f95c6f063a4a" name="PROC_STEP" type="NVARCHAR" nullable="false" length="5">
+        <annotations xmi:id="c16f83dc8740e64cb8537800ca9ea1d6" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="478a74731a4a712136700520d2f83b1f" name="PROC_TYPE" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="27e0fff2b66ec7838bc973fc65baf0d1" name="PROC_ID" type="NVARCHAR" nullable="false" length="70">
+      </attributes>
+      <attributes xmi:id="cfccebb5c09d124704aaca7ade3476d2" name="PROC_UNDO" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="e5cea3ded8c312fa78de8420e814e224" name="LOGSYS" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="fc638373e334c3de718a09c9eec82f62" name="OBJ_TYPE" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="2f78870cce88b4986b7c2997b2765f86" name="OBJ_KEY" type="NVARCHAR" nullable="false" length="70">
+      </attributes>
+      <attributes xmi:id="656cec707f14b52e8105c8139a6ba770" name="OLD_CLASS" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="e903dfd52f05aa2bbd9323349aaf9585" name="NEW_CLASS" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="9e30b83281e2a45b4da5d68675ab01df" name="DELTA_ORIGINAL" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="c5685678c25b6d5fefd9da04e1039d68" name="DELTA_DISPUTED" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="f029e1141246f2991f464d04167335a7" name="DELTA_PAID" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="82fc0b227b81e4199fc996afef3c4be8" name="DELTA_CREDITED" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="88e904e18222d809df45f74c5645ffeb" name="DELTA_WRITE_OFF" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="d3dc5299f17aadcd559dc6febaedaf47" name="DELTA_NOT_SOLVED" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="7026074bdb4fe81fc7ea95b50654158e" name="DISPUTE_CURR" type="NVARCHAR" nullable="false" length="5">
+      </attributes>
+      <attributes xmi:id="a5607ccebd2a2c0dd8756ba2fa708c2a" name="TIMESTAMP" type="DECIMAL" nullable="false" length="15">
+      </attributes>
+      <attributes xmi:id="6b078fa30180693361dbed6685ecfae1" name="USER_NAME" type="NVARCHAR" nullable="false" length="12">
+      </attributes>
+      <attributes xmi:id="95690da95529ecbf8d18c74d8af60a6c" name="IS_VOIDED" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="5b8f8a60b973d856d02858a9489bfb9c" name="IS_CONFIRMED" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+    </inputs>
+  </nodes>
+  <nodes xmi:id="22ac083ddba01e6afa78bb44fe3f6b0f" name="DataSource" catalogObjectName="REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_FDM_DCPROC" type="VIRTUAL_TABLE" xsi:type="flowgraph:DataNode" dataLayout="ROW">
+    <annotations key="sap.afm.layout" xmi:id="2dc439d1313dd17d3bab0c241b8cb419">
+      <annotations xmi:id="b66ad9557469bac6f4d1514e5d8bdfea" key="x" value="88">
+      </annotations>
+      <annotations xmi:id="ccafe1980c191854d53da6c516272722" key="y" value="109">
+      </annotations>
+      <annotations xmi:id="2c66cc992cff5a8554977c7cae6e9c53" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="b0e6b3131e99be76a74d82392fccf0aa" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="66d4d55648bf94f7b9626e7c798fcc79" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="333d2f64a435f68e111905041dcc4ba7" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="fae12a91b3fa5ad271f72d25195fe54d" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="0e757122ada1df726d7666d08e5e0228" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="8f16265ff0c0b679a35438c5e58a1c3a" key="sap.afm.displayName" value="Data Source">
+    </annotations>
+    <annotations xmi:id="5f0a6888fbbaf2649b843072069d9a7c" key="columns" value="[{&quot;name&quot;:&quot;MANDT&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:3,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;833adf353b5277c61017ca0ec1fde803&quot;},{&quot;name&quot;:&quot;CASE_GUID_LOC&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:32,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;d1e95f80795abb6218e625e94f4f207d&quot;},{&quot;name&quot;:&quot;PROC_SEQNR&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:3,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;2510fcb132ae3dcb3b37c2e27f824a12&quot;},{&quot;name&quot;:&quot;PROC_STEP&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:5,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;edbb80e15474a1b567ec3c1dcd777e1c&quot;},{&quot;name&quot;:&quot;PROC_TYPE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;b9feeb62e60efa079b0a5c9647b6e6b7&quot;},{&quot;name&quot;:&quot;PROC_ID&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:70,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;54dfcf3794794a76b35cbf9b66b2ed08&quot;},{&quot;name&quot;:&quot;PROC_UNDO&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;3bd1b04f45403f8a919ee2080ca1f409&quot;},{&quot;name&quot;:&quot;LOGSYS&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;2d85d4e45800644a2edbbbb5c8791a38&quot;},{&quot;name&quot;:&quot;OBJ_TYPE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;e9610131a5c673fbbaafdd3df532ed0c&quot;},{&quot;name&quot;:&quot;OBJ_KEY&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:70,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;8f3f6e5a1989a988a1d4a47605ee6c26&quot;},{&quot;name&quot;:&quot;OLD_CLASS&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;1326865f4e030f2a11f095be9e1515ca&quot;},{&quot;name&quot;:&quot;NEW_CLASS&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;6eab66da950b3406f58ea9bbbf706117&quot;},{&quot;name&quot;:&quot;DELTA_ORIGINAL&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;length&quot;:15,&quot;scale&quot;:2,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;832916a3e72ffa770f92d825df6f7baf&quot;},{&quot;name&quot;:&quot;DELTA_DISPUTED&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;length&quot;:15,&quot;scale&quot;:2,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;f2060c9c7cd63bdbf72c3abc2c26c00d&quot;},{&quot;name&quot;:&quot;DELTA_PAID&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;length&quot;:15,&quot;scale&quot;:2,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;7b8a01f36b5f6ab76b68717d0833fb13&quot;},{&quot;name&quot;:&quot;DELTA_CREDITED&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;length&quot;:15,&quot;scale&quot;:2,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;77348fe4e2c65865b3730ad25680ee24&quot;},{&quot;name&quot;:&quot;DELTA_WRITE_OFF&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;length&quot;:15,&quot;scale&quot;:2,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;bcf17f54762663bb0596503b6a048ad3&quot;},{&quot;name&quot;:&quot;DELTA_NOT_SOLVED&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;length&quot;:15,&quot;scale&quot;:2,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;1a74753cf122cf8ccc698c0d1385dd26&quot;},{&quot;name&quot;:&quot;DISPUTE_CURR&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:5,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;a771a3e1807d05ea8580d7468107487a&quot;},{&quot;name&quot;:&quot;TIMESTAMP&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;length&quot;:15,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;7f203aa50dace3add748b8863ee24a3a&quot;},{&quot;name&quot;:&quot;USER_NAME&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:12,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;84f94bc9776cbf33ce3c867a68f9eaea&quot;},{&quot;name&quot;:&quot;IS_VOIDED&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;1c4ca1541014a7cf82f99c4d433a55dd&quot;},{&quot;name&quot;:&quot;IS_CONFIRMED&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;c52a380c2cfc56035f43101f637ee013&quot;}]">
+    </annotations>
+    <outputs xmi:id="d1982f52199da0fc945fbf0e16a34e6a" name="DataSource">
+      <attributes xmi:id="833adf353b5277c61017ca0ec1fde803" name="MANDT" type="NVARCHAR" nullable="false" length="3">
+        <annotations xmi:id="2e7cf5c2ae945369aaa47980784dfb53" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="d1e95f80795abb6218e625e94f4f207d" name="CASE_GUID_LOC" type="NVARCHAR" nullable="false" length="32">
+        <annotations xmi:id="def1f4b7b4335632c5b5e4aa9d7d009a" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="2510fcb132ae3dcb3b37c2e27f824a12" name="PROC_SEQNR" type="NVARCHAR" nullable="false" length="3">
+        <annotations xmi:id="603f06e391c5092c1f4ed15e8e535a14" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="edbb80e15474a1b567ec3c1dcd777e1c" name="PROC_STEP" type="NVARCHAR" nullable="false" length="5">
+        <annotations xmi:id="5066e43e46c3ef39dd588e2090d9e905" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="b9feeb62e60efa079b0a5c9647b6e6b7" name="PROC_TYPE" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="54dfcf3794794a76b35cbf9b66b2ed08" name="PROC_ID" type="NVARCHAR" nullable="false" length="70">
+      </attributes>
+      <attributes xmi:id="3bd1b04f45403f8a919ee2080ca1f409" name="PROC_UNDO" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="2d85d4e45800644a2edbbbb5c8791a38" name="LOGSYS" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="e9610131a5c673fbbaafdd3df532ed0c" name="OBJ_TYPE" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="8f3f6e5a1989a988a1d4a47605ee6c26" name="OBJ_KEY" type="NVARCHAR" nullable="false" length="70">
+      </attributes>
+      <attributes xmi:id="1326865f4e030f2a11f095be9e1515ca" name="OLD_CLASS" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="6eab66da950b3406f58ea9bbbf706117" name="NEW_CLASS" type="NVARCHAR" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="832916a3e72ffa770f92d825df6f7baf" name="DELTA_ORIGINAL" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="f2060c9c7cd63bdbf72c3abc2c26c00d" name="DELTA_DISPUTED" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="7b8a01f36b5f6ab76b68717d0833fb13" name="DELTA_PAID" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="77348fe4e2c65865b3730ad25680ee24" name="DELTA_CREDITED" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="bcf17f54762663bb0596503b6a048ad3" name="DELTA_WRITE_OFF" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="1a74753cf122cf8ccc698c0d1385dd26" name="DELTA_NOT_SOLVED" type="DECIMAL" nullable="false" length="15" scale="2">
+      </attributes>
+      <attributes xmi:id="a771a3e1807d05ea8580d7468107487a" name="DISPUTE_CURR" type="NVARCHAR" nullable="false" length="5">
+      </attributes>
+      <attributes xmi:id="7f203aa50dace3add748b8863ee24a3a" name="TIMESTAMP" type="DECIMAL" nullable="false" length="15">
+      </attributes>
+      <attributes xmi:id="84f94bc9776cbf33ce3c867a68f9eaea" name="USER_NAME" type="NVARCHAR" nullable="false" length="12">
+      </attributes>
+      <attributes xmi:id="1c4ca1541014a7cf82f99c4d433a55dd" name="IS_VOIDED" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+      <attributes xmi:id="c52a380c2cfc56035f43101f637ee013" name="IS_CONFIRMED" type="NVARCHAR" nullable="false" length="1">
+      </attributes>
+    </outputs>
+  </nodes>
+</flowgraph:ContainerNode>
