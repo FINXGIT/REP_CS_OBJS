@@ -1,0 +1,10 @@
+{
+  "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SCMG_T_CASE_ATTR": {
+    "target": {
+      "remote": "FDS_SDI",
+      "database": "FDS",
+      "schema": "SABABAP1",
+      "object": "SCMG_T_CASE_ATTR"
+    }
+  }
+}
