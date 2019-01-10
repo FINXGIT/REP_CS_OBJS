@@ -1,0 +1,14 @@
+{ 
+	"arkondoju_c_cs_s4_grantor": {
+		"object_owner": { 
+			"container_roles": [
+				"REP_CS_OBJS.C_CS_S4.DB_OBJECTS.ROLES::external_access_g#"
+			]
+		},
+		"application_user": {
+			"container_roles": [
+				"REP_CS_OBJS.C_CS_S4.DB_OBJECTS.ROLES::external_access"
+			]
+		}
+	}
+}
