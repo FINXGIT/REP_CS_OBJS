@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="REP_CS_OBJS.C_CS_MAIN.PRIVATE_VIEWS::CV_CS_T006" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="PV_T006"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_T006">
+    <resourceUri>REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_T006</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_T006">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MSEHI" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSEHI"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="MSEHI"/>
+    </attribute>
+    <attribute id="KZEX3" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZEX3"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="KZEX3"/>
+    </attribute>
+    <attribute id="KZEX6" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZEX6"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="KZEX6"/>
+    </attribute>
+    <attribute id="ANDEC" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANDEC"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="ANDEC"/>
+    </attribute>
+    <attribute id="KZKEH" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKEH"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="KZKEH"/>
+    </attribute>
+    <attribute id="KZWOB" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWOB"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="KZWOB"/>
+    </attribute>
+    <attribute id="KZ1EH" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZ1EH"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="KZ1EH"/>
+    </attribute>
+    <attribute id="KZ2EH" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZ2EH"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="KZ2EH"/>
+    </attribute>
+    <attribute id="DIMID" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DIMID"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="DIMID"/>
+    </attribute>
+    <attribute id="ZAEHL" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHL"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="ZAEHL"/>
+    </attribute>
+    <attribute id="NENNR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NENNR"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="NENNR"/>
+    </attribute>
+    <attribute id="EXP10" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXP10"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="EXP10"/>
+    </attribute>
+    <attribute id="ADDKO" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDKO"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="ADDKO"/>
+    </attribute>
+    <attribute id="EXPON" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXPON"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="EXPON"/>
+    </attribute>
+    <attribute id="DECAN" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DECAN"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="DECAN"/>
+    </attribute>
+    <attribute id="ISOCODE" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ISOCODE"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="ISOCODE"/>
+    </attribute>
+    <attribute id="PRIMARY" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRIMARY"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="PRIMARY"/>
+    </attribute>
+    <attribute id="TEMP_VALUE" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEMP_VALUE"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="TEMP_VALUE"/>
+    </attribute>
+    <attribute id="TEMP_UNIT" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEMP_UNIT"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="TEMP_UNIT"/>
+    </attribute>
+    <attribute id="FAMUNIT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAMUNIT"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="FAMUNIT"/>
+    </attribute>
+    <attribute id="PRESS_VAL" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRESS_VAL"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="PRESS_VAL"/>
+    </attribute>
+    <attribute id="PRESS_UNIT" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRESS_UNIT"/>
+      <keyMapping columnObjectName="SYN_T006" columnName="PRESS_UNIT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="92" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario> 

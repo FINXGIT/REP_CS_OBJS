@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="REP_CS_OBJS.C_CS_MAIN.PRIVATE_VIEWS::CV_CS_SETNODE" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="PV_SETNODE"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETNODE">
+    <resourceUri>REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETNODE</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETNODE">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="SYN_SETNODE" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SETCLASS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SETCLASS"/>
+      <keyMapping columnObjectName="SYN_SETNODE" columnName="SETCLASS"/>
+    </attribute>
+    <attribute id="SUBCLASS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBCLASS"/>
+      <keyMapping columnObjectName="SYN_SETNODE" columnName="SUBCLASS"/>
+    </attribute>
+    <attribute id="SETNAME" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SETNAME"/>
+      <keyMapping columnObjectName="SYN_SETNODE" columnName="SETNAME"/>
+    </attribute>
+    <attribute id="LINEID" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LINEID"/>
+      <keyMapping columnObjectName="SYN_SETNODE" columnName="LINEID"/>
+    </attribute>
+    <attribute id="SUBSETCLS" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBSETCLS"/>
+      <keyMapping columnObjectName="SYN_SETNODE" columnName="SUBSETCLS"/>
+    </attribute>
+    <attribute id="SUBSETSCLS" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBSETSCLS"/>
+      <keyMapping columnObjectName="SYN_SETNODE" columnName="SUBSETSCLS"/>
+    </attribute>
+    <attribute id="SUBSETNAME" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBSETNAME"/>
+      <keyMapping columnObjectName="SYN_SETNODE" columnName="SUBSETNAME"/>
+    </attribute>
+    <attribute id="SEQNR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEQNR"/>
+      <keyMapping columnObjectName="SYN_SETNODE" columnName="SEQNR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario> 

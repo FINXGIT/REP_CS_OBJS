@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="REP_CS_OBJS.C_CS_MAIN.PRIVATE_VIEWS::CV_CS_FDM_DCPROC" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CV_CS_FDM_DCPROC"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_FDM_DCPROC">
+    <resourceUri>REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_FDM_DCPROC</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_FDM_DCPROC">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="MANDT"/>
+    </attribute>
+    <attribute id="CASE_GUID_LOC" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CASE_GUID_LOC"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="CASE_GUID_LOC"/>
+    </attribute>
+    <attribute id="PROC_SEQNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROC_SEQNR"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="PROC_SEQNR"/>
+    </attribute>
+    <attribute id="PROC_STEP" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROC_STEP"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="PROC_STEP"/>
+    </attribute>
+    <attribute id="PROC_TYPE" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROC_TYPE"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="PROC_TYPE"/>
+    </attribute>
+    <attribute id="PROC_ID" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROC_ID"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="PROC_ID"/>
+    </attribute>
+    <attribute id="PROC_UNDO" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROC_UNDO"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="PROC_UNDO"/>
+    </attribute>
+    <attribute id="LOGSYS" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOGSYS"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="LOGSYS"/>
+    </attribute>
+    <attribute id="OBJ_TYPE" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJ_TYPE"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="OBJ_TYPE"/>
+    </attribute>
+    <attribute id="OBJ_KEY" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJ_KEY"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="OBJ_KEY"/>
+    </attribute>
+    <attribute id="OLD_CLASS" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OLD_CLASS"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="OLD_CLASS"/>
+    </attribute>
+    <attribute id="NEW_CLASS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NEW_CLASS"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="NEW_CLASS"/>
+    </attribute>
+    <attribute id="DELTA_ORIGINAL" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DELTA_ORIGINAL"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="DELTA_ORIGINAL"/>
+    </attribute>
+    <attribute id="DELTA_DISPUTED" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DELTA_DISPUTED"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="DELTA_DISPUTED"/>
+    </attribute>
+    <attribute id="DELTA_PAID" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DELTA_PAID"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="DELTA_PAID"/>
+    </attribute>
+    <attribute id="DELTA_CREDITED" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DELTA_CREDITED"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="DELTA_CREDITED"/>
+    </attribute>
+    <attribute id="DELTA_WRITE_OFF" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DELTA_WRITE_OFF"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="DELTA_WRITE_OFF"/>
+    </attribute>
+    <attribute id="DELTA_NOT_SOLVED" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DELTA_NOT_SOLVED"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="DELTA_NOT_SOLVED"/>
+    </attribute>
+    <attribute id="DISPUTE_CURR" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISPUTE_CURR"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="DISPUTE_CURR"/>
+    </attribute>
+    <attribute id="TIMESTAMP" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TIMESTAMP"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="TIMESTAMP"/>
+    </attribute>
+    <attribute id="USER_NAME" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USER_NAME"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="USER_NAME"/>
+    </attribute>
+    <attribute id="IS_VOIDED" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IS_VOIDED"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="IS_VOIDED"/>
+    </attribute>
+    <attribute id="IS_CONFIRMED" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IS_CONFIRMED"/>
+      <keyMapping columnObjectName="SYN_FDM_DCPROC" columnName="IS_CONFIRMED"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

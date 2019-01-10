@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="REP_CS_OBJS.C_CS_MAIN.PRIVATE_VIEWS::CV_CS_SETHEADER" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="PV_SETHEADER"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETHEADER">
+    <resourceUri>REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETHEADER</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETHEADER">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SETCLASS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SETCLASS"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="SETCLASS"/>
+    </attribute>
+    <attribute id="SUBCLASS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBCLASS"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="SUBCLASS"/>
+    </attribute>
+    <attribute id="SETNAME" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SETNAME"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="SETNAME"/>
+    </attribute>
+    <attribute id="SETTYPE" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SETTYPE"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="SETTYPE"/>
+    </attribute>
+    <attribute id="XDYNAMIC" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XDYNAMIC"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="XDYNAMIC"/>
+    </attribute>
+    <attribute id="AUTHGR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUTHGR"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="AUTHGR"/>
+    </attribute>
+    <attribute id="XUNIQ" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XUNIQ"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="XUNIQ"/>
+    </attribute>
+    <attribute id="RVALUE" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RVALUE"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="RVALUE"/>
+    </attribute>
+    <attribute id="CREUSER" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CREUSER"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="CREUSER"/>
+    </attribute>
+    <attribute id="CREDATE" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CREDATE"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="CREDATE"/>
+    </attribute>
+    <attribute id="CRETIME" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CRETIME"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="CRETIME"/>
+    </attribute>
+    <attribute id="UPDUSER" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPDUSER"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="UPDUSER"/>
+    </attribute>
+    <attribute id="UPDDATE" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPDDATE"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="UPDDATE"/>
+    </attribute>
+    <attribute id="UPDTIME" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPDTIME"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="UPDTIME"/>
+    </attribute>
+    <attribute id="SAPRL" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAPRL"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="SAPRL"/>
+    </attribute>
+    <attribute id="TABNAME" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TABNAME"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="TABNAME"/>
+    </attribute>
+    <attribute id="FIELDNAME" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIELDNAME"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="FIELDNAME"/>
+    </attribute>
+    <attribute id="ROLLNAME" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ROLLNAME"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="ROLLNAME"/>
+    </attribute>
+    <attribute id="SET_OLANGU" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SET_OLANGU"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="SET_OLANGU"/>
+    </attribute>
+    <attribute id="NO_RWSHEADER" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NO_RWSHEADER"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="NO_RWSHEADER"/>
+    </attribute>
+    <attribute id="NO_RWSLINE" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NO_RWSLINE"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="NO_RWSLINE"/>
+    </attribute>
+    <attribute id="NO_SETLINET" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NO_SETLINET"/>
+      <keyMapping columnObjectName="SYN_SETHEADER" columnName="NO_SETLINET"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario> 

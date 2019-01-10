@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="REP_CS_OBJS.C_CS_MAIN.PRIVATE_VIEWS::CV_CS_SETLEAF" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="PV_SETLEAF"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETLEAF">
+    <resourceUri>REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETLEAF</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETLEAF">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="SYN_SETLEAF" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SETCLASS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SETCLASS"/>
+      <keyMapping columnObjectName="SYN_SETLEAF" columnName="SETCLASS"/>
+    </attribute>
+    <attribute id="SUBCLASS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBCLASS"/>
+      <keyMapping columnObjectName="SYN_SETLEAF" columnName="SUBCLASS"/>
+    </attribute>
+    <attribute id="SETNAME" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SETNAME"/>
+      <keyMapping columnObjectName="SYN_SETLEAF" columnName="SETNAME"/>
+    </attribute>
+    <attribute id="LINEID" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LINEID"/>
+      <keyMapping columnObjectName="SYN_SETLEAF" columnName="LINEID"/>
+    </attribute>
+    <attribute id="VALSIGN" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALSIGN"/>
+      <keyMapping columnObjectName="SYN_SETLEAF" columnName="VALSIGN"/>
+    </attribute>
+    <attribute id="VALOPTION" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALOPTION"/>
+      <keyMapping columnObjectName="SYN_SETLEAF" columnName="VALOPTION"/>
+    </attribute>
+    <attribute id="VALFROM" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALFROM"/>
+      <keyMapping columnObjectName="SYN_SETLEAF" columnName="VALFROM"/>
+    </attribute>
+    <attribute id="VALTO" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALTO"/>
+      <keyMapping columnObjectName="SYN_SETLEAF" columnName="VALTO"/>
+    </attribute>
+    <attribute id="SEQNR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEQNR"/>
+      <keyMapping columnObjectName="SYN_SETLEAF" columnName="SEQNR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario> 

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="REP_CS_OBJS.C_CS_MAIN.PRIVATE_VIEWS::CV_CS_PRCD_ELEMENTS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CV_CS_PRCD_ELEMENTS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_PRCD_ELEMENTS">
+    <resourceUri>REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_PRCD_ELEMENTS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_PRCD_ELEMENTS">
+  <attributes>
+    <attribute id="CLIENT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLIENT"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="CLIENT"/>
+    </attribute>
+    <attribute id="KNUMV" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNUMV"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KNUMV"/>
+    </attribute>
+    <attribute id="KPOSN" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KPOSN"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KPOSN"/>
+    </attribute>
+    <attribute id="STUNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STUNR"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="STUNR"/>
+    </attribute>
+    <attribute id="ZAEHK" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHK"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="ZAEHK"/>
+    </attribute>
+    <attribute id="KAPPL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAPPL"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KAPPL"/>
+    </attribute>
+    <attribute id="KSCHL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSCHL"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KSCHL"/>
+    </attribute>
+    <attribute id="KDATU" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDATU"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KDATU"/>
+    </attribute>
+    <attribute id="KRECH" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRECH"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KRECH"/>
+    </attribute>
+    <attribute id="KAWRT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAWRT"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KAWRT"/>
+    </attribute>
+    <attribute id="KBETR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBETR"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KBETR"/>
+    </attribute>
+    <attribute id="WAERS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="WAERS"/>
+    </attribute>
+    <attribute id="KKURS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKURS"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KKURS"/>
+    </attribute>
+    <attribute id="KPEIN" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KPEIN"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KPEIN"/>
+    </attribute>
+    <attribute id="KMEIN" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMEIN"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KMEIN"/>
+    </attribute>
+    <attribute id="KUMZA" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUMZA"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KUMZA"/>
+    </attribute>
+    <attribute id="KUMNE" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUMNE"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KUMNE"/>
+    </attribute>
+    <attribute id="KNTYP" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNTYP"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KNTYP"/>
+    </attribute>
+    <attribute id="KSTAT" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTAT"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KSTAT"/>
+    </attribute>
+    <attribute id="KNPRS" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNPRS"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KNPRS"/>
+    </attribute>
+    <attribute id="KRUEK" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRUEK"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KRUEK"/>
+    </attribute>
+    <attribute id="KRELI" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KRELI"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KRELI"/>
+    </attribute>
+    <attribute id="KHERK" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KHERK"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KHERK"/>
+    </attribute>
+    <attribute id="KGRPE" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KGRPE"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KGRPE"/>
+    </attribute>
+    <attribute id="KOLNR" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOLNR"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KOLNR"/>
+    </attribute>
+    <attribute id="KNUMH" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNUMH"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KNUMH"/>
+    </attribute>
+    <attribute id="KOPOS" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOPOS"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KOPOS"/>
+    </attribute>
+    <attribute id="KVSL1" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVSL1"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KVSL1"/>
+    </attribute>
+    <attribute id="SAKN1" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKN1"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="SAKN1"/>
+    </attribute>
+    <attribute id="MWSK1" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSK1"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="MWSK1"/>
+    </attribute>
+    <attribute id="KVSL2" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVSL2"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KVSL2"/>
+    </attribute>
+    <attribute id="SAKN2" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKN2"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="SAKN2"/>
+    </attribute>
+    <attribute id="MWSK2" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSK2"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="MWSK2"/>
+    </attribute>
+    <attribute id="LIFNR" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="KDIFF" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDIFF"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KDIFF"/>
+    </attribute>
+    <attribute id="KWERT" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KWERT"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KWERT"/>
+    </attribute>
+    <attribute id="WAERK" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERK"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="WAERK"/>
+    </attribute>
+    <attribute id="KSTEU" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTEU"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KSTEU"/>
+    </attribute>
+    <attribute id="KINAK" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KINAK"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KINAK"/>
+    </attribute>
+    <attribute id="KOAID" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOAID"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KOAID"/>
+    </attribute>
+    <attribute id="ZAEKO" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEKO"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="ZAEKO"/>
+    </attribute>
+    <attribute id="KFAKTOR" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFAKTOR"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KFAKTOR"/>
+    </attribute>
+    <attribute id="KDUPL" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDUPL"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KDUPL"/>
+    </attribute>
+    <attribute id="KFAKTOR1" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFAKTOR1"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KFAKTOR1"/>
+    </attribute>
+    <attribute id="KZBZG" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBZG"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KZBZG"/>
+    </attribute>
+    <attribute id="KSTBS" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTBS"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KSTBS"/>
+    </attribute>
+    <attribute id="KONMS" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONMS"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KONMS"/>
+    </attribute>
+    <attribute id="KONWS" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONWS"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KONWS"/>
+    </attribute>
+    <attribute id="KWAEH" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KWAEH"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KWAEH"/>
+    </attribute>
+    <attribute id="KWERT_K" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KWERT_K"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KWERT_K"/>
+    </attribute>
+    <attribute id="KFKIV" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KFKIV"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KFKIV"/>
+    </attribute>
+    <attribute id="KMPRS" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMPRS"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KMPRS"/>
+    </attribute>
+    <attribute id="PRSQU" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSQU"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="PRSQU"/>
+    </attribute>
+    <attribute id="TXJLV" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJLV"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="TXJLV"/>
+    </attribute>
+    <attribute id="KBFLAG" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBFLAG"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KBFLAG"/>
+    </attribute>
+    <attribute id="KOUPD" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOUPD"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KOUPD"/>
+    </attribute>
+    <attribute id="KMXAW" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMXAW"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KMXAW"/>
+    </attribute>
+    <attribute id="KMXWR" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KMXWR"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KMXWR"/>
+    </attribute>
+    <attribute id="KAWRT_K" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAWRT_K"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KAWRT_K"/>
+    </attribute>
+    <attribute id="KUNNR" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="KVARC" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KVARC"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KVARC"/>
+    </attribute>
+    <attribute id="VARCOND" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VARCOND"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="VARCOND"/>
+    </attribute>
+    <attribute id="KTREL" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTREL"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KTREL"/>
+    </attribute>
+    <attribute id="MDFLG" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MDFLG"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="MDFLG"/>
+    </attribute>
+    <attribute id="_DATAAGING" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="_DATAAGING"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="_DATAAGING"/>
+    </attribute>
+    <attribute id="CPF_GUID" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPF_GUID"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="CPF_GUID"/>
+    </attribute>
+    <attribute id="KAQTY" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KAQTY"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="KAQTY"/>
+    </attribute>
+    <attribute id="VAL_ZERO" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VAL_ZERO"/>
+      <keyMapping columnObjectName="SYN_PRCD_ELEMENTS" columnName="VAL_ZERO"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

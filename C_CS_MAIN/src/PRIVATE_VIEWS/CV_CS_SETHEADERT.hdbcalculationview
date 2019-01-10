@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="REP_CS_OBJS.C_CS_MAIN.PRIVATE_VIEWS::CV_CS_SETHEADERT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="PV_SETHEADERT"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETHEADERT">
+    <resourceUri>REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETHEADERT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETHEADERT">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="SYN_SETHEADERT" columnName="MANDT"/>
+    </attribute>
+    <attribute id="SETCLASS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SETCLASS"/>
+      <keyMapping columnObjectName="SYN_SETHEADERT" columnName="SETCLASS"/>
+    </attribute>
+    <attribute id="SUBCLASS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBCLASS"/>
+      <keyMapping columnObjectName="SYN_SETHEADERT" columnName="SUBCLASS"/>
+    </attribute>
+    <attribute id="SETNAME" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SETNAME"/>
+      <keyMapping columnObjectName="SYN_SETHEADERT" columnName="SETNAME"/>
+    </attribute>
+    <attribute id="LANGU" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGU"/>
+      <keyMapping columnObjectName="SYN_SETHEADERT" columnName="LANGU"/>
+    </attribute>
+    <attribute id="DESCRIPT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DESCRIPT"/>
+      <keyMapping columnObjectName="SYN_SETHEADERT" columnName="DESCRIPT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario> 

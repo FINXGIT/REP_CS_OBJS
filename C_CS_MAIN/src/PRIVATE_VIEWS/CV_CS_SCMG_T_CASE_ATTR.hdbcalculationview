@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="REP_CS_OBJS.C_CS_MAIN.PRIVATE_VIEWS::CV_CS_SCMG_T_CASE_ATTR" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CV_CS_SCMG_T_CASE_ATTR"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SCMG_T_CASE_ATTR">
+    <resourceUri>REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SCMG_T_CASE_ATTR</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SCMG_T_CASE_ATTR">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="MANDT"/>
+    </attribute>
+    <attribute id="CASE_GUID" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CASE_GUID"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="CASE_GUID"/>
+    </attribute>
+    <attribute id="CASE_TYPE" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CASE_TYPE"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="CASE_TYPE"/>
+    </attribute>
+    <attribute id="EXT_KEY" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXT_KEY"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="EXT_KEY"/>
+    </attribute>
+    <attribute id="EXT_REF" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXT_REF"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="EXT_REF"/>
+    </attribute>
+    <attribute id="CREATED_BY" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CREATED_BY"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="CREATED_BY"/>
+    </attribute>
+    <attribute id="CREATE_TIME" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CREATE_TIME"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="CREATE_TIME"/>
+    </attribute>
+    <attribute id="CHANGED_BY" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHANGED_BY"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="CHANGED_BY"/>
+    </attribute>
+    <attribute id="CHANGE_TIME" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHANGE_TIME"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="CHANGE_TIME"/>
+    </attribute>
+    <attribute id="CLOSED_BY" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLOSED_BY"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="CLOSED_BY"/>
+    </attribute>
+    <attribute id="CLOSING_TIME" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLOSING_TIME"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="CLOSING_TIME"/>
+    </attribute>
+    <attribute id="PLAN_END_DATE" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLAN_END_DATE"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="PLAN_END_DATE"/>
+    </attribute>
+    <attribute id="PROCESSOR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROCESSOR"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="PROCESSOR"/>
+    </attribute>
+    <attribute id="RESPONSIBLE" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESPONSIBLE"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="RESPONSIBLE"/>
+    </attribute>
+    <attribute id="CASE_TITLE" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CASE_TITLE"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="CASE_TITLE"/>
+    </attribute>
+    <attribute id="ESCAL_REASON" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESCAL_REASON"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="ESCAL_REASON"/>
+    </attribute>
+    <attribute id="CATEGORY" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CATEGORY"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="CATEGORY"/>
+    </attribute>
+    <attribute id="PRIORITY" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRIORITY"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="PRIORITY"/>
+    </attribute>
+    <attribute id="SECURE_LEVEL" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SECURE_LEVEL"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="SECURE_LEVEL"/>
+    </attribute>
+    <attribute id="PROFILE_ID" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROFILE_ID"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="PROFILE_ID"/>
+    </attribute>
+    <attribute id="STAT_ORDERNO" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT_ORDERNO"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="STAT_ORDERNO"/>
+    </attribute>
+    <attribute id="STAT_PARA" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT_PARA"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="STAT_PARA"/>
+    </attribute>
+    <attribute id="STAT_OBJNR" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT_OBJNR"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="STAT_OBJNR"/>
+    </attribute>
+    <attribute id="STAT_LINE" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT_LINE"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="STAT_LINE"/>
+    </attribute>
+    <attribute id="STAT_USER_LINE" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT_USER_LINE"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="STAT_USER_LINE"/>
+    </attribute>
+    <attribute id="REASON_CODE" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REASON_CODE"/>
+      <keyMapping columnObjectName="SYN_SCMG_T_CASE_ATTR" columnName="REASON_CODE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
