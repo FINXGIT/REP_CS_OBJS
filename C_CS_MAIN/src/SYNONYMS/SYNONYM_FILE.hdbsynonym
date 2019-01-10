@@ -1,0 +1,191 @@
+{
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_KNA1": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_KNA1",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_KNVV": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_KNVV",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_VBAK": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_VBAK",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_KNVP": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_KNVP",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_ACDOCA": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_ACDOCA",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_ADRC": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_ADRC",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_BKPF": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BKPF",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_BSAD": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BSAD",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_BSEG": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BSEG",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_BSID": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BSID",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_BSIS": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BSIS",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_KONP": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_KONP",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_MARA": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_MARA",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_VBAP": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_VBAP",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_VBPA": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_VBPA",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_VBRK": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_VBRK",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_VBRP": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_VBRP",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_TVZB": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_TVZB",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_T006": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_T006",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETHEADER": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SETHEADER",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETHEADERT": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SETHEADERT",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETLEAF": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SETLEAF",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SETNODE": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SETNODE",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_FDM_DCPROC": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_FDM_DCPROC",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_PRCD_ELEMENTS": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_PRCD_ELEMENTS",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_SCMG_T_CASE_ATTR": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SCMG_T_CASE_ATTR",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  },
+  "REP_CS_OBJS.C_CS_MAIN.SYNONYMS::SYN_UDMCASEATTR00": {
+    "target": {
+      "object": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_UDMCASEATTR00",
+      "schema": "C_CS_S4_1",
+      "database": "FBH"
+    }
+  }
+}
