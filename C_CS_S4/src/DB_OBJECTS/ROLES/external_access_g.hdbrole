@@ -1,0 +1,147 @@
+{
+  "role": {
+    "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.ROLES::external_access_g#",
+    "object_privileges": [
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_KNA1",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+       {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_KNVV",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_VBAK",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+       {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_KNVP",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_ACDOCA",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_ADRC",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BKPF",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+       {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BSAD",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BSEG",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BSID",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_BSIS",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_KONP",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+       {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_MARA",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_VBAP",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_VBPA",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_VBRK",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_VBRP",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_TVZB",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_T006",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SETHEADER",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SETHEADERT",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SETLEAF",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SETNODE",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_FDM_DCPROC",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_PRCD_ELEMENTS",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SCMG_T_CASE_ATTR",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_SCMG_T_CASE_ATTR",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      },
+      {
+        "name": "REP_CS_OBJS.C_CS_S4.DB_OBJECTS.VIRTUAL_TABLES::VT_CS_UDMCASEATTR00",
+        "type": "TABLE",
+        "privileges_with_grant_option":[ "SELECT" ]
+      }
+    ]
+  }
+}

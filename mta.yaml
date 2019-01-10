@@ -8,6 +8,21 @@ modules:
    path: C_CS_S4
    requires:
     - name: hdi_C_CS_S4
+      properties:
+        TARGET_CONTAINER: ~{hdi-container-name}
+ - name: C_CS_MAIN
+   type: hdb
+   path: C_CS_MAIN
+   requires:
+    - name: hdi_C_CS_MAIN
+      properties:
+        TARGET_CONTAINER: ~{hdi-container-name_2}
+    - name: cross-container-service-arkondoju
+      group: SERVICE_REPLACEMENTS
+      properties: 
+        key: arkondoju_c_cs_s4_grantor
+        service: ~{c_cs_s4-grantor-arkondoju}
+ 
 
 resources:
  - name: hdi_C_CS_S4
@@ -17,3 +32,17 @@ resources:
    properties:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
+ - name: hdi_C_CS_MAIN
+   parameters:
+      config:
+         schema: C_CS_MAIN
+   properties:
+      hdi-container-name_2: ${service-name}
+   type: com.sap.xs.hdi-container
+ - name: cross-container-service-arkondoju
+   properties:
+     c_cs_s4-grantor-arkondoju: ${service-name}
+   parameters:
+     service-name: ARKONDOJU-xmnmf4xrqaia6042-REP_CS_OBJS-hdi_C_CS_S4
+   type: org.cloudfoundry.existing-service
+ 
